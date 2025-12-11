@@ -1,0 +1,222 @@
+/*-- scss:defaults --*/
+
+// Define color variables for easy management
+$light-bg: #ffffff;
+$light-card: #ffffff;
+
+// Navigation bar colors
+$navbar-bg: #ffffff;
+$navbar-text: #2c3e50;
+
+// Sidebar colors
+$sidebar-bg: #E3EBF3;
+
+// Value box colors
+$primary-box: #E3EBF3;
+$secondary-box: #D3D3D2;
+$tertiary-box: #E7D3CF;
+$quaternary-box: #e7f1e8;
+$success-box: #97CEA1;
+
+/*-- scss:rules --*/
+
+// =====================================
+// NAVIGATION BAR
+// =====================================
+
+// Override Quarto's navbar styles with maximum specificity
+body .dashboard-page .navbar,
+body header.navbar,
+body nav.navbar,
+.dashboard-page header.navbar,
+header.navbar.navbar-expand-lg,
+.navbar.navbar-expand-lg {
+    background-color: $navbar-bg !important;
+}
+
+// Navbar text colors
+body .navbar .navbar-brand,
+body .navbar .navbar-title,
+body .navbar .navbar-nav .nav-link,
+body .navbar .navbar-text,
+body .navbar .nav-buttons a,
+.navbar .navbar-brand,
+.navbar .navbar-title,
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-text,
+.navbar .nav-buttons a {
+    color: $navbar-text !important;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .nav-buttons a:hover {
+    color: darken($navbar-text, 15%) !important;
+}
+
+.navbar .navbar-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbar {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+// =====================================
+// DASHBOARD LAYOUT
+// =====================================
+
+.dashboard-page {
+    background-color: $light-bg !important;
+    color: #2c3e50 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+// Sidebar
+.sidebar,
+aside.sidebar,
+.dashboard-sidebar {
+    background-color: $sidebar-bg !important;
+    padding-top: 0 !important;
+}
+
+// Cards
+.card {
+    background-color: $light-card !important;
+    color: #2c3e50 !important;
+    border-color: #ddd !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+
+// =====================================
+// TEXT MUTED
+// =====================================
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+// =====================================
+// VALUE BOX COLORS
+// =====================================
+
+.value-box {
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.value-box.primary-box {
+    background-color: $primary-box !important;
+    color: $navbar-text !important;
+
+    .value-box-title {
+        color: #E3EBF3 !important;
+    }
+
+    .value-box-value {
+        color: $navbar-text !important;
+        font-weight: 700;
+    }
+}
+
+.value-box.secondary-box {
+    background-color: $secondary-box !important;
+    color: #2c3e50 !important;
+
+    .value-box-title {
+        color: #D3D3D2 !important;
+    }
+
+    .value-box-value {
+        color: #2c3e50 !important;
+        font-weight: 700;
+    }
+}
+
+.value-box.tertiary-box {
+    background-color: $tertiary-box !important;
+    color: #5d4037 !important;
+
+    .value-box-title {
+        color: rgba(93, 64, 55, 0.8) !important;
+    }
+
+    .value-box-value {
+        color: #5d4037 !important;
+        font-weight: 700;
+    }
+}
+
+.value-box.quaternary-box {
+    background-color: $quaternary-box !important;
+    color: #2e7d32 !important;
+
+    .value-box-title {
+        color: rgba(46, 125, 50, 0.8) !important;
+    }
+
+    .value-box-value {
+        color: #2e7d32 !important;
+        font-weight: 700;
+    }
+}
+
+.value-box.success-box {
+    background-color: $success-box !important;
+    color: #1b5e20 !important;
+
+    .value-box-title {
+        color: rgba(27, 94, 32, 0.8) !important;
+    }
+
+    .value-box-value {
+        color: #1b5e20 !important;
+        font-weight: 700;
+    }
+}
+
+.value-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// =====================================
+// LAYOUT ADJUSTMENTS
+// =====================================
+
+.tab-content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.container-fluid {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+body {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#quarto-content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.plotly {
+    width: 100% !important;
+    height: 100% !important;
+}
