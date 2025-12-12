@@ -2,4 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-/assets/
+# Ignore all assets folders anywhere in the repo
+assets/
