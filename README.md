@@ -2,17 +2,6 @@
 
 > Interactive analytics dashboard for CPHI Japan pharmaceutical exhibition (2023-2025)
 
-## Quick Start
-```bash
-# Clone repository
-git clone https://github.com/satoshi-F13/cphi-jp2.git
-
-# Install R packages
-Rscript -e "install.packages(c('tidyverse', 'plotly', 'DT', 'leaflet', 'flextable'))"
-
-# Render dashboard
-quarto render dashboard.qmd
-```
 
 ## Features
 
