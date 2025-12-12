@@ -22,6 +22,7 @@ execute:
   message: false
   echo: false
 ---
+
 ```{r setup, include=FALSE}
 # Source all helper files
 source("R/setup.R")
@@ -113,6 +114,7 @@ Visitor increase YoY
 ## Row {height="75%"}
 
 ### Column {width="50%"}
+
 ```{r exhibitor-trends}
 #| title: "Exhibitor Growth Trajectory"
 plot_trend_line(
@@ -125,6 +127,7 @@ plot_trend_line(
 ```
 
 ### Column {width="50%"}
+
 ```{r visitor-trends}
 #| title: "Visitor Growth Trajectory"
 cphi_main %>%
@@ -142,12 +145,14 @@ cphi_main %>%
 ## Row {height="50%"}
 
 ### Column {width="50%"}
+
 ```{r exhibitor-geo-2025}
 #| title: "Top 10 Exhibitor Countries (2025)"
 plot_country_bars(exhibitor_countries_2025, top_n = 10, max_value = 350)
 ```
 
 ### Column {width="50%"}
+
 ```{r regional-treemap}
 #| title: "Regional Distribution (2025)"
 plot_regional_treemap(exhibitor_countries_2025)
@@ -156,6 +161,7 @@ plot_regional_treemap(exhibitor_countries_2025)
 ## Row {height="50%"}
 
 ### Column {width="50%"}
+
 ```{r visitor-geo-2024}
 #| title: "Top 15 Visitor Origin Countries (2024)"
 visitor_countries_2024 %>%
@@ -165,6 +171,7 @@ visitor_countries_2024 %>%
 ```
 
 ### Column {width="50%"}
+
 ```{r exhibitor-geo-2024}
 #| title: "Top 15 Exhibitor Countries (2024)"
 exhibitor_countries_2024 %>%
@@ -220,6 +227,7 @@ Net Promoter Score
 ## Row {height="75%"}
 
 ### Column {width="50%"}
+
 ```{r visitor-job-positions}
 #| title: "Visitor Job Positions (2024)"
 job_positions <- visitor_demo_2024 %>%
@@ -247,6 +255,7 @@ ggplotly(p5, tooltip = c("y", "x")) %>%
 ```
 
 ### Column {width="50%"}
+
 ```{r visitor-interests}
 #| title: "Primary Areas of Interest (2024)"
 interests <- visitor_demo_2024 %>%
@@ -318,6 +327,7 @@ Net Promoter Score
 ## Row {height="70%"}
 
 ### Column {width="50%"}
+
 ```{r exhibitor-objectives}
 #| title: "Key Exhibitor Objectives (2024)"
 objectives <- exhibitor_data_2024 %>%
@@ -342,6 +352,7 @@ ggplot(objectives, aes(x = percentage, y = subcategory)) +
 ```
 
 ### Column {width="50%"}
+
 ```{r exhibitor-origin}
 #| title: "Exhibitor Origin Distribution (2024)"
 exhibitor_origin <- exhibitor_data_2024 %>%
@@ -374,6 +385,7 @@ plot_ly(
 ### Column {.tabset}
 
 #### 2025 Exhibitor Countries
+
 ```{r table-2025-countries}
 exhibitor_countries_2025 %>%
   arrange(desc(exhibitors)) %>%
@@ -406,6 +418,7 @@ exhibitor_countries_2025 %>%
 ```
 
 #### 2024 Visitor Demographics
+
 ```{r table-visitor-demo}
 visitor_demo_2024 %>%
   filter(
@@ -440,6 +453,7 @@ visitor_demo_2024 %>%
 ```
 
 #### Business Categories
+
 ```{r table-business-categories}
 business_categories_2024 %>%
   arrange(desc(percentage)) %>%
@@ -471,6 +485,7 @@ business_categories_2024 %>%
 ```
 
 #### National Pavilions
+
 ```{r table-pavilions}
 pavilions %>%
   select(year, pavilion_name, organizing_body) %>%
@@ -513,10 +528,10 @@ pavilions %>%
 **Expected:** 800+ exhibitors, 35,000+ visitors
 
 ------------------------------------------------------------------------
-
 :::
 
 ## Column {width="50%"}
+
 ```{r tokyo-map}
 #| title: "Exhibition Venue Location"
 create_venue_map(
