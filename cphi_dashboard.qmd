@@ -1,0 +1,438 @@
+---
+title: "CPHI Japan Exhibition 2026"
+subtitle: "Exhibitor Analysis"
+date: today
+format:
+  dashboard:
+    theme: 
+      light: 
+        - default
+        - custom.scss
+    fillPage: true
+    logo: logos/wide/satom-wide-color.png
+    nav-buttons:
+      - icon: globe
+        href: https://exhibitors.cphi.com/cpjp26/
+      - text: "EN"
+        href: index_en.html
+      - text: "JP"  
+        href: index_jp.html
+    fig-width: 10
+    fig-height: 6
+    embed-resources: true
+    output-file: index.html
+    output-dir: docs
+editor: visual
+execute:
+  warning: false
+  message: false
+  echo: false
+params:
+  lang: "en"  # default language
+---
+
+```{r}
+#| label: setup
+
+# Load libraries
+library(tidyverse)
+library(ggiraph)
+library(scales)
+library(gt)
+library(plotly)
+
+# Read data
+exhibitors <- read_csv("data/exhibitors_cphijp2026.csv")
+
+# Data preparation
+exhibitors_clean <- exhibitors %>%
+  mutate(
+    show_type = if_else(is.na(show_type) | show_type == "", "Not Specified", show_type),
+    country = if_else(is.na(country) | country == "", "Not Specified", country)
+  )
+
+# Calculate summary statistics
+total_exhibitors <- nrow(exhibitors_clean)
+total_countries <- n_distinct(exhibitors_clean$country)
+total_show_types <- n_distinct(exhibitors_clean$show_type)
+total_products <- n_distinct(exhibitors_clean$product_name[!is.na(exhibitors_clean$product_name)])
+```
+
+# Overview
+
+## Row {height="25%"}
+
+```{r}
+#| content: valuebox
+#| title: "Total Exhibitors"
+list(
+  icon = "people-fill",
+  color = "primary",
+  value = total_exhibitors
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Countries Represented"
+list(
+  icon = "globe",
+  color = "success",
+  value = total_countries
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Show Types"
+list(
+  icon = "grid-3x3-gap-fill",
+  color = "info",
+  value = total_show_types
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Product Categories"
+list(
+  icon = "box-seam",
+  color = "warning",
+  value = total_products
+)
+```
+
+## Row {height="75%"}
+
+### Column {width="60%"}
+
+```{r}
+#| title: "Top 20 Countries by Number of Exhibitors"
+
+# Prepare data
+country_data <- exhibitors_clean %>%
+  count(country, sort = TRUE) %>%
+  slice_head(n = 20) %>%
+  mutate(
+    country = fct_reorder(country, n),
+    tooltip = paste0(
+      "<b>", country, "</b><br>",
+      "Exhibitors: ", n
+    )
+  )
+
+# Create interactive plot
+p <- ggplot(country_data, aes(x = n, y = country)) +
+  geom_col_interactive(
+    aes(tooltip = tooltip, data_id = country),
+    fill = "#2C5F8D",
+    alpha = 0.8
+  ) +
+  geom_text(
+    aes(label = n),
+    hjust = -0.3,
+    size = 3.5,
+    fontface = "bold"
+  ) +
+  labs(
+    x = "Number of Exhibitors",
+    y = NULL
+  ) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.15))) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text.y = element_text(size = 10),
+    plot.title = element_text(face = "bold")
+  )
+
+girafe(
+  ggobj = p,
+  width_svg = 10,
+  height_svg = 6,
+  options = list(
+    opts_hover(css = "fill:#E74C3C;stroke:black;stroke-width:2;"),
+    opts_tooltip(
+      css = "background-color:#333333;color:white;padding:8px;border-radius:4px;font-size:14px;",
+      opacity = 0.95
+    )
+  )
+)
+```
+
+### Column {width="40%"}
+
+```{r}
+#| title: "Exhibition Type Distribution"
+
+# Prepare data
+show_type_data <- exhibitors_clean %>%
+  count(show_type, sort = TRUE) %>%
+  mutate(
+    percentage = n / sum(n) * 100,
+    label = paste0(show_type, "\n", n, " (", round(percentage, 1), "%)"),
+    tooltip = paste0(
+      "<b>", show_type, "</b><br>",
+      "Count: ", n, "<br>",
+      "Percentage: ", round(percentage, 1), "%"
+    )
+  )
+
+# Create interactive pie chart
+p <- ggplot(show_type_data, aes(x = "", y = n, fill = show_type)) +
+  geom_bar_interactive(
+    aes(tooltip = tooltip, data_id = show_type),
+    stat = "identity",
+    width = 1
+  ) +
+  coord_polar("y", start = 0) +
+  scale_fill_brewer(palette = "Set3") +
+  labs(fill = "Show Type") +
+  theme_void(base_size = 12) +
+  theme(
+    legend.position = "right",
+    legend.title = element_text(face = "bold"),
+    plot.title = element_text(face = "bold")
+  )
+
+girafe(
+  ggobj = p,
+  width_svg = 8,
+  height_svg = 6,
+  options = list(
+    opts_hover(css = "opacity:0.7;stroke:black;stroke-width:3;"),
+    opts_tooltip(
+      css = "background-color:#333333;color:white;padding:8px;border-radius:4px;font-size:14px;",
+      opacity = 0.95
+    )
+  )
+)
+```
+
+# Country Analysis
+
+## Row
+
+### Column {width="70%"}
+
+```{r}
+#| title: "Exhibitors by Country and Show Type"
+
+# Prepare data
+country_show_data <- exhibitors_clean %>%
+  count(country, show_type) %>%
+  group_by(country) %>%
+  mutate(total = sum(n)) %>%
+  ungroup() %>%
+  filter(total >= 5) %>%  # Only show countries with 5+ exhibitors
+  mutate(
+    country = fct_reorder(country, total),
+    tooltip = paste0(
+      "<b>", country, "</b><br>",
+      "Show Type: ", show_type, "<br>",
+      "Exhibitors: ", n
+    )
+  )
+
+# Create stacked bar chart
+p <- ggplot(country_show_data, aes(x = n, y = country, fill = show_type)) +
+  geom_col_interactive(
+    aes(tooltip = tooltip, data_id = paste(country, show_type)),
+    position = "stack",
+    alpha = 0.85
+  ) +
+  labs(
+    x = "Number of Exhibitors",
+    y = NULL,
+    fill = "Show Type"
+  ) +
+  scale_fill_brewer(palette = "Set2") +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    legend.position = "top",
+    legend.title = element_text(face = "bold")
+  )
+
+girafe(
+  ggobj = p,
+  width_svg = 10,
+  height_svg = 8,
+  options = list(
+    opts_hover(css = "opacity:1;stroke:black;stroke-width:2;"),
+    opts_tooltip(
+      css = "background-color:#333333;color:white;padding:8px;border-radius:4px;font-size:14px;",
+      opacity = 0.95
+    )
+  )
+)
+```
+
+### Column {width="30%"}
+
+```{r}
+#| title: "Country Statistics"
+
+# Create summary table
+country_summary <- exhibitors_clean %>%
+  group_by(country) %>%
+  summarise(
+    Exhibitors = n(),
+    `Show Types` = n_distinct(show_type),
+    `Products` = n_distinct(product_name[!is.na(product_name)])
+  ) %>%
+  arrange(desc(Exhibitors)) %>%
+  slice_head(n = 15)
+
+country_summary %>%
+  gt() %>%
+  tab_header(
+    title = "Top 15 Countries"
+  ) %>%
+  cols_label(
+    country = "Country"
+  ) %>%
+  fmt_number(
+    columns = c(Exhibitors, `Show Types`, `Products`),
+    decimals = 0
+  ) %>%
+  data_color(
+    columns = Exhibitors,
+    palette = "Blues"
+  ) %>%
+  tab_options(
+    table.font.size = 11,
+    heading.title.font.size = 14,
+    heading.title.font.weight = "bold"
+  )
+```
+
+# Show Type Analysis
+
+## Row
+
+```{r}
+#| title: "Show Type Comparison Across Top Countries"
+
+# Prepare data
+show_country_data <- exhibitors_clean %>%
+  group_by(country) %>%
+  mutate(country_total = n()) %>%
+  ungroup() %>%
+  filter(country_total >= 10) %>%
+  count(show_type, country) %>%
+  mutate(
+    tooltip = paste0(
+      "<b>", show_type, "</b><br>",
+      "Country: ", country, "<br>",
+      "Count: ", n
+    )
+  )
+
+# Create grouped bar chart
+p <- ggplot(show_country_data, aes(x = show_type, y = n, fill = country)) +
+  geom_col_interactive(
+    aes(tooltip = tooltip, data_id = paste(show_type, country)),
+    position = "dodge",
+    alpha = 0.85
+  ) +
+  labs(
+    x = "Show Type",
+    y = "Number of Exhibitors",
+    fill = "Country"
+  ) +
+  scale_fill_viridis_d(option = "turbo") +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "right",
+    legend.title = element_text(face = "bold"),
+    panel.grid.major.x = element_blank()
+  )
+
+girafe(
+  ggobj = p,
+  width_svg = 12,
+  height_svg = 6,
+  options = list(
+    opts_hover(css = "opacity:1;stroke:black;stroke-width:2;"),
+    opts_tooltip(
+      css = "background-color:#333333;color:white;padding:8px;border-radius:4px;font-size:14px;",
+      opacity = 0.95
+    )
+  )
+)
+```
+
+## Row
+
+```{r}
+#| title: "Show Type Details"
+
+# Create show type summary
+show_summary <- exhibitors_clean %>%
+  group_by(show_type) %>%
+  summarise(
+    `Total Exhibitors` = n(),
+    `Countries` = n_distinct(country),
+    `Avg per Country` = round(n() / n_distinct(country), 1),
+    `Top Country` = country[which.max(table(country))],
+    `Top Country Count` = max(table(country))
+  ) %>%
+  arrange(desc(`Total Exhibitors`))
+
+show_summary %>%
+  gt() %>%
+  tab_header(
+    title = "Show Type Summary Statistics"
+  ) %>%
+  cols_label(
+    show_type = "Show Type"
+  ) %>%
+  fmt_number(
+    columns = c(`Total Exhibitors`, Countries, `Top Country Count`),
+    decimals = 0
+  ) %>%
+  data_color(
+    columns = `Total Exhibitors`,
+    palette = "Greens"
+  ) %>%
+  tab_options(
+    table.font.size = 12,
+    heading.title.font.size = 14,
+    heading.title.font.weight = "bold"
+  )
+```
+
+# Data Table
+
+## Row
+
+```{r}
+#| title: "Complete Exhibitor List"
+
+# Create interactive data table
+exhibitors_display <- exhibitors_clean %>%
+  select(
+    `Booth` = booth_number,
+    `Company` = company_name,
+    `Show Type` = show_type,
+    `Product` = product_name,
+    `Country` = country
+  )
+
+DT::datatable(
+  exhibitors_display,
+  options = list(
+    pageLength = 25,
+    scrollX = TRUE,
+    searchHighlight = TRUE,
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel')
+  ),
+  filter = 'top',
+  class = 'cell-border stripe',
+  extensions = 'Buttons'
+)
+```

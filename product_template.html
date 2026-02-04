@@ -1,0 +1,158 @@
+<div class="exhibitor {{if NEWEXHIBITOR:true}}exhibitor--new{{/NEWEXHIBITOR if}}">
+    <div class="exhibitor__header">
+        <div class="exhibitor__flagged">
+            <label class="btn-flagged">
+                <input type="checkbox" class="btn-flagged__check shortlist-checkbox" data-id="<$id>">
+                <svg class="icon icon-flagged" role="img">
+                    <use xlink:href="/img/v2021/sprite.svg#flagged"></use>
+                </svg>
+            </label>
+        </div>
+        <div class="exhibitor__title">
+            <h3>
+                <$title>
+            </h3>
+            <div class="exh-company-name">
+                <div class="exh-company-name__text">
+                    <$companyname>
+                </div>
+                <!-- <div class="exh-company-name__icons">
+                    <div class="member-type" title="Platinum subscription" data-bs-toggle="tooltip"><img
+                            src="img/v2021/member-platinum.svg" alt=""></div>
+                    <div class="cphi-verified" data-bs-toggle="tooltip" data-bs-html="true"
+                        data-bs-custom-class="tooltip--cphi-verified"
+                        title="Verified by SGS Group<br>This seller is assessed, certified, authenticated and/or inspected by SGS Group.">
+                        <svg class="icon icon-cphi-verified-sign" role="img">
+                            <use xlink:href="img/v2021/sprite.svg#cphi-verified-sign"></use>
+                        </svg>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="exhibitor__h-info">
+            <div class="exhibitor__status">
+                {{if NEWEXHIBITOR:true}}
+                <div class="m-tag m-tag--e-type">New</div>
+                {{/NEWEXHIBITOR if}}
+            </div>
+            <div class="exhibitor__h-place">
+                <div class="m-tag">
+                    <div class="m-tag__img"><svg class="icon icon-m-pin" role="img">
+                            <use xlink:href="/img/v2021/sprite.svg#m-pin" />
+                        </svg></div>
+                    <div class="m-tag__txt">
+                        <$standno>
+                    </div>
+                </div>
+            </div>
+            <div class="exhibitor__type">
+                {{if EXHIBITORTYPE:true}}
+                <div class="meet-status" title="In Person" data-bs-toggle="tooltip">
+                    <svg class="icon icon-in-person" role="img">
+                        <use xlink:href="/img/v2021/sprite.svg#in-person" />
+                    </svg>
+                </div>
+                {{EXHIBITORTYPE else}}
+                <div class="meet-status" aria-label="Online" data-bs-toggle="tooltip">
+                    <svg class="icon icon-online" role="img">
+                        <use xlink:href="/img/v2021/sprite.svg#online">
+                    </svg>
+                </div>
+                {{/EXHIBITORTYPE if}}
+            </div>
+            <div class="exhibitor__country">
+                <div class="m-tag m-tag--country">
+                    <img class="m-tag__img" src="/img/v2021/flags/<$isocode>.svg" alt="">
+                    <div class="m-tag__txt">
+                        <$isocode>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="exhibitor__body collapse">
+        <div class="exhibitor__content">
+            <div class="exhibitor__info">
+                <div class="exhibitor__img">
+                    <img src="<$image>" alt="">
+                </div>
+                <div class="exhibitor__info-body">
+                    <div class="exhibitor__description">
+                        <p>
+                            <$description>
+                        </p>
+                    </div>
+                    <div class="entity__tags e-tags-list e-tags-list--md e-tags-list--blue">
+                        <$categories>
+                    </div>
+                </div>
+            </div>
+            <div class="exhibitor__company exh-prod-company">
+                <div class="exh-prod-company__logo">
+                    <img src="<$companylogo>" alt="">
+                </div>
+                <div class="exh-prod-company__info">
+                    <div class="e-tags-list">
+                        <div class="m-tag"><b>
+                                <$no_of_years>
+                            </b> YRS</div>
+                        <div class="m-tag"><b>
+                                <$no_of_certificates>
+                            </b> Certificates</div>
+                        <div class="m-tag">
+                            <svg class="icon icon-empl m-tag__img" role="img">
+                                <use xlink:href="/img/v2021/sprite.svg#empl" />
+                            </svg>
+                            <div class="m-tag__txt"><b>
+                                    <$no_of_employees>
+                                </b> EMPL</div>
+                        </div>
+                    </div>
+                    <div class="entity__spec e-tags-list e-tags-list--md e-tags-list--l-green">
+                        <$company_types>
+                    </div>
+                </div>
+            </div>
+            <div class="exhibitor__place">
+                <svg class="icon icon-in-person" role="img">
+                    <use xlink:href="/img/v2021/sprite.svg#in-person"></use>
+                </svg>
+
+                {{if STANDNO:notempty}}
+                    <p>Visit us at stand <b>
+                        <$standno>
+                    </b>{{if SUBEVENT:notempty}}, subevent <b>
+                        <$subevent>
+                    </b>{{/SUBEVENT if}}{{if ZONE:notempty}}, zone <b>
+                        <$zone>
+                    </b>{{/ZONE if}}
+                {{/STANDNO if}}
+            </p>
+            </div>
+            <div class="exhibitor__footer">
+                <div class="exhibitor__buttons">
+                    <a href="javascript:" class="btn btn-secondary btn-sm"
+                            data-tableid="303" data-recordid="<$companyid>"
+                            data-companyid="<$companyid>" data-companyname="<$companyname>" data-recordname="<$companyname>"
+                            data-client="true" data-tierid="<$tierid>" data-actionid="5" data-component="Popup"
+                            data-target="#contact-form" data-title="Contact <$companyname> at <$event_title>"
+                            data-type="eventbooking"
+                            data-text="I would like to contact <$companyname> at <$event_title>"
+                            data-exhibitor-id="<$companyid>" data-event-id="<$eventid>" data-eventname="<$event_name>"
+                            data-docu_companyname="<$companyname>">
+                        <div class="btn__icon"><svg class="icon icon-meeting" role="img">
+                                <use xlink:href="/img/v2021/sprite.svg#meeting" />
+                            </svg></div>
+                        <div class="btn__text">Contact Company</div>
+                    </a>
+                    <a href="<$companylink>" class="btn btn-outline-secondary btn-sm">
+                        <span class="btn__icon"><svg class="icon icon-company-round" role="img">
+                                <use xlink:href="/img/v2021/sprite.svg#company-round" />
+                            </svg></span>
+                        <span class="btn__text">View profile</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

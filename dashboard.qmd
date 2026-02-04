@@ -16,6 +16,8 @@ format:
     fig-width: 10
     fig-height: 6
     embed-resources: true
+    output-file: index.html
+    output-dir: docs
 editor: visual
 execute:
   warning: false
@@ -47,11 +49,11 @@ growth_visitors <- calculate_growth_metrics(34128, 21159)
 ::: card
 ### About
 
-This dashboard provides comprehensive analysis of **CPHI Japan**, Asia's premier pharmaceutical exhibition.
+This dashboard provides comprehensive analysis of **CPHI Japan**, Asian premier pharmaceutical exhibition.
 
-**Coverage:** 2023-2025\
+**Coverage:** 2024-2026\
 **Last Updated:** `r Sys.Date()`\
-**Source:** Official CPHI Japan Reports
+**Source:** CPHI Japan Report
 
 ------------------------------------------------------------------------
 

@@ -1,0 +1,5950 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+	"facets" : [
+		{
+			"title" : "Category",
+			"showmoreText" : "Show more categories",
+			"filters" : [
+				{
+					"name" : "Contract Development and Manufacturing Organisations (CDMOs) and Contract Manufacturing Organisations (CMOs) (Services)",
+					"value" : 0
+				},
+				{
+					"name" : "Intermediates, Fine and Specialty Chemicals (Products)",
+					"value" : 1
+				},
+				{
+					"name" : "Innovative APIs",
+					"value" : 2
+				},
+				{
+					"name" : "API Contract Manufacturing",
+					"value" : 3
+				},
+				{
+					"name" : "Generic APIs",
+					"value" : 4
+				},
+				{
+					"name" : "Finished Dosage Forms (Products)",
+					"value" : 5
+				},
+				{
+					"name" : "Biopharmaceutical Products",
+					"value" : 6
+				},
+				{
+					"name" : "Contract Manufacturing",
+					"value" : 7
+				},
+				{
+					"name" : "Advanced Intermediates",
+					"value" : 8
+				},
+				{
+					"name" : "Contract Manufacturing/Exclusive Synthesis of Fine Chemicals",
+					"value" : 9
+				},
+				{
+					"name" : "Anatomical Therapeutic Chemical (ATC) Classification Products",
+					"value" : 10
+				},
+				{
+					"name" : "Laboratory and Analytical Services",
+					"value" : 11
+				},
+				{
+					"name" : "Pharmaceutical Machinery & Technology (Products)",
+					"value" : 12
+				},
+				{
+					"name" : "Fine Chemicals (general category)",
+					"value" : 13
+				},
+				{
+					"name" : "Packaging Materials and Equipment (Products)",
+					"value" : 14
+				},
+				{
+					"name" : "Specialty Chemicals",
+					"value" : 15
+				},
+				{
+					"name" : "Custom Manufacturing (general category)",
+					"value" : 16
+				},
+				{
+					"name" : "Other Generic APIs",
+					"value" : 17
+				},
+				{
+					"name" : "Biopharmaceuticals (General Category)",
+					"value" : 18
+				},
+				{
+					"name" : "Injectable systems and components",
+					"value" : 19
+				},
+				{
+					"name" : "Process Optimisation",
+					"value" : 20
+				},
+				{
+					"name" : "Peptides",
+					"value" : 21
+				},
+				{
+					"name" : "Drug Delivery Devices & Systems (Products)",
+					"value" : 22
+				},
+				{
+					"name" : "Contract Packaging Services",
+					"value" : 23
+				},
+				{
+					"name" : "Natural Extracts (Products)",
+					"value" : 24
+				},
+				{
+					"name" : "Exclusive Synthesis of APIs",
+					"value" : 25
+				},
+				{
+					"name" : "Synthetic Organic Chemistry",
+					"value" : 26
+				},
+				{
+					"name" : "Antiinfectives for Systemic use",
+					"value" : 27
+				},
+				{
+					"name" : "Contract Research Organisations (CROs) (Services)",
+					"value" : 28
+				},
+				{
+					"name" : "Chemical synthesis/analysis",
+					"value" : 29
+				}
+			]
+		}
+	],
+	"results" : [
+		{
+			"type" : "product",
+			"id" : 1312710,
+			"name" : "Cholesterol (Plant-Derived) CAS NO.: 57-88-5",
+			"eventid" : 590,
+			"score" : 10000,
+			"filterVal" : "110000101100010010101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1294582,
+			"name" : "Boc-Amino Acids",
+			"eventid" : 590,
+			"score" : 9999,
+			"filterVal" : "111010000100000000000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291417,
+			"name" : "mPEG-pALD",
+			"eventid" : 590,
+			"score" : 9998,
+			"filterVal" : "110000101100010010101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 13498,
+			"name" : "2-Bromoheptafluoropropane intermediates",
+			"eventid" : 590,
+			"score" : 9997,
+			"filterVal" : "100000000000000000000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299817,
+			"name" : "3-CYANO PYRIDINE",
+			"eventid" : 590,
+			"score" : 9996,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284800,
+			"name" : "5-Cyanophthalide | 82104-74-3 |",
+			"eventid" : 590,
+			"score" : 9995,
+			"filterVal" : "010000001000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306367,
+			"name" : "7-Ethyl-10-hydroxycamptothecin",
+			"eventid" : 590,
+			"score" : 9994,
+			"filterVal" : "100100100010000000000000100100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 959977,
+			"name" : "Acarbose",
+			"eventid" : 590,
+			"score" : 9993,
+			"filterVal" : "110011011010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261230,
+			"name" : "Acotiamide Hydrochloride",
+			"eventid" : 590,
+			"score" : 9992,
+			"filterVal" : "111110001001000001000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266188,
+			"name" : "Active Pharmaceutical Ingredients",
+			"eventid" : 590,
+			"score" : 9991,
+			"filterVal" : "100100100101100000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291241,
+			"name" : "ADBA",
+			"eventid" : 590,
+			"score" : 9990,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161901,
+			"name" : "Advanced Intermediates",
+			"eventid" : 590,
+			"score" : 9989,
+			"filterVal" : "100000010000000000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306676,
+			"name" : "Advanced Therapy Medicinal Products CRO & CDMO Services",
+			"eventid" : 590,
+			"score" : 9988,
+			"filterVal" : "101100100001000010000100000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313228,
+			"name" : "Ampoules",
+			"eventid" : 590,
+			"score" : 9987,
+			"filterVal" : "100001000010101000010000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310737,
+			"name" : "Anagrelide hydrochloride monohydrate",
+			"eventid" : 590,
+			"score" : 9986,
+			"filterVal" : "110100010101010010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288041,
+			"name" : "Apalutamide",
+			"eventid" : 590,
+			"score" : 9985,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297364,
+			"name" : "Argatroban",
+			"eventid" : 590,
+			"score" : 9984,
+			"filterVal" : "010010001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 20859,
+			"name" : "Argireline Acetate",
+			"eventid" : 590,
+			"score" : 9983,
+			"filterVal" : "101110100000000000100100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266181,
+			"name" : "Aseptic Blow-Fill-Seal packaging machine for the production of bottles - bp 321",
+			"eventid" : 590,
+			"score" : 9982,
+			"filterVal" : "000000000000101000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301541,
+			"name" : "Atorvastatin Calcium",
+			"eventid" : 590,
+			"score" : 9981,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314995,
+			"name" : "Automatic Biopsy Needle ACECUT",
+			"eventid" : 590,
+			"score" : 9980,
+			"filterVal" : "000000000000101000010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161942,
+			"name" : "Benazepril Hydrochloridec",
+			"eventid" : 590,
+			"score" : 9979,
+			"filterVal" : "100100010001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299295,
+			"name" : "Biologics",
+			"eventid" : 590,
+			"score" : 9978,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 92741,
+			"name" : "Bivalirudin",
+			"eventid" : 590,
+			"score" : 9977,
+			"filterVal" : "001000100000000000100100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1293467,
+			"name" : "Boc-His(Trt)-Aib-OH",
+			"eventid" : 590,
+			"score" : 9976,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296772,
+			"name" : "Brexpiprazole",
+			"eventid" : 590,
+			"score" : 9975,
+			"filterVal" : "001010000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1263120,
+			"name" : "Candidate Selection - Integrated Programs",
+			"eventid" : 590,
+			"score" : 9974,
+			"filterVal" : "100100110000000000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1294583,
+			"name" : "Cbz-Amino Acids",
+			"eventid" : 590,
+			"score" : 9973,
+			"filterVal" : "111010000100000000000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1279154,
+			"name" : "Cephalosporins APIs",
+			"eventid" : 590,
+			"score" : 9972,
+			"filterVal" : "001011000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271911,
+			"name" : "(Chloromethyl)cyclopropane",
+			"eventid" : 590,
+			"score" : 9971,
+			"filterVal" : "110000001010010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 768065,
+			"name" : "Clinical and Commercial supply services",
+			"eventid" : 590,
+			"score" : 9970,
+			"filterVal" : "100001110000000000101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314827,
+			"name" : "COEUS-WIFI",
+			"eventid" : 590,
+			"score" : 9969,
+			"filterVal" : "000000000010101000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299592,
+			"name" : "Development & manufacture - drug delivery devices",
+			"eventid" : 590,
+			"score" : 9968,
+			"filterVal" : "100001000001001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301237,
+			"name" : "Drug-device combinations",
+			"eventid" : 590,
+			"score" : 9967,
+			"filterVal" : "100001100000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292875,
+			"name" : "e-Syrpen®",
+			"eventid" : 590,
+			"score" : 9966,
+			"filterVal" : "000000000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313783,
+			"name" : "ECO LITE drums",
+			"eventid" : 590,
+			"score" : 9965,
+			"filterVal" : "000000000000001000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 975715,
+			"name" : "GENERIC PEPTIDES",
+			"eventid" : 590,
+			"score" : 9964,
+			"filterVal" : "100110110100000010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101964,
+			"name" : "Glass reaction systems",
+			"eventid" : 590,
+			"score" : 9963,
+			"filterVal" : "000000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299318,
+			"name" : "HPAPIs Circlear",
+			"eventid" : 590,
+			"score" : 9962,
+			"filterVal" : "110010000001000001001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284663,
+			"name" : "Isoamylene",
+			"eventid" : 590,
+			"score" : 9961,
+			"filterVal" : "110000000000010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299338,
+			"name" : "KANEKA KanCapA ( Protein A resin )",
+			"eventid" : 590,
+			"score" : 9960,
+			"filterVal" : "100000100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299606,
+			"name" : "Latest Product List",
+			"eventid" : 590,
+			"score" : 9959,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15644,
+			"name" : "Liraglutide",
+			"eventid" : 590,
+			"score" : 9958,
+			"filterVal" : "111110010101000100000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266233,
+			"name" : "Manufacturing",
+			"eventid" : 590,
+			"score" : 9957,
+			"filterVal" : "110100100001000100001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1286190,
+			"name" : "mPEG36-NH2",
+			"eventid" : 590,
+			"score" : 9956,
+			"filterVal" : "110000101100010010101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299484,
+			"name" : "NeoPeptides(TM)",
+			"eventid" : 590,
+			"score" : 9955,
+			"filterVal" : "110001000001001100010000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271557,
+			"name" : "Oxalyl Chloride",
+			"eventid" : 590,
+			"score" : 9954,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1232704,
+			"name" : "Pivaldehyde",
+			"eventid" : 590,
+			"score" : 9953,
+			"filterVal" : "110000011100110100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 182105,
+			"name" : "Pre-filled syringe formulation",
+			"eventid" : 590,
+			"score" : 9952,
+			"filterVal" : "100000010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1311327,
+			"name" : "(R)-((2R,5S)-5-(4-aminobenzyl)pyrrolidin-2-yl)(phenyl)methanol (CAS : 1295539-30-8)",
+			"eventid" : 590,
+			"score" : 9951,
+			"filterVal" : "010010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 797129,
+			"name" : "(R,R)-iPr-DuPhos",
+			"eventid" : 590,
+			"score" : 9950,
+			"filterVal" : "110000000000000100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291331,
+			"name" : "Semaglutide (GLP-1 Drug)",
+			"eventid" : 590,
+			"score" : 9949,
+			"filterVal" : "100101110000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1277297,
+			"name" : "Sibia - Reusable Pen injector",
+			"eventid" : 590,
+			"score" : 9948,
+			"filterVal" : "100000000000001010010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306053,
+			"name" : "Solutex Omega-3 fatty acids",
+			"eventid" : 590,
+			"score" : 9947,
+			"filterVal" : "001000000010100000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1030744,
+			"name" : "SPES PEN",
+			"eventid" : 590,
+			"score" : 9946,
+			"filterVal" : "000000000000000000000011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260252,
+			"name" : "TDF/TAF Tenofovir disoproxil fumarate/Tenofovir Alafenamide Fumarate",
+			"eventid" : 590,
+			"score" : 9945,
+			"filterVal" : "111010000100000001000100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260992,
+			"name" : "The Specialist Integrated CDMO",
+			"eventid" : 590,
+			"score" : 9944,
+			"filterVal" : "101101100000000000100000000011",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257446,
+			"name" : "Valsartan",
+			"eventid" : 590,
+			"score" : 9943,
+			"filterVal" : "110101000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313098,
+			"name" : "YpsoLoop",
+			"eventid" : 590,
+			"score" : 9942,
+			"filterVal" : "000001000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1311328,
+			"name" : "1-iodo-4-nitrobenzene（CAS : 636-98-6）",
+			"eventid" : 590,
+			"score" : 9941,
+			"filterVal" : "010010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 13755,
+			"name" : "1-PHENYL-3-METHYL-5-PYRAZOLONE",
+			"eventid" : 590,
+			"score" : 9940,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271914,
+			"name" : "2-Methyl-3-(trifluoromethyl)aniline",
+			"eventid" : 590,
+			"score" : 9939,
+			"filterVal" : "110000001010010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1232703,
+			"name" : "5-Amino-4,6-dichloro-2-methylpyrimidine",
+			"eventid" : 590,
+			"score" : 9938,
+			"filterVal" : "110000011100110100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284803,
+			"name" : "5-Nitroindazole",
+			"eventid" : 590,
+			"score" : 9937,
+			"filterVal" : "010000001000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261229,
+			"name" : "Alogliptin Benzoate",
+			"eventid" : 590,
+			"score" : 9936,
+			"filterVal" : "111110001001000001000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1309899,
+			"name" : "Analytical Services",
+			"eventid" : 590,
+			"score" : 9935,
+			"filterVal" : "110100010101010010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1285808,
+			"name" : "Aseptic Blow-Fill-Seal packaging machines for the production of ampoules",
+			"eventid" : 590,
+			"score" : 9934,
+			"filterVal" : "000000000000101000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 20870,
+			"name" : "Atosiban Acetate",
+			"eventid" : 590,
+			"score" : 9933,
+			"filterVal" : "101110100000000000100100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1231897,
+			"name" : "Autoinjectors",
+			"eventid" : 590,
+			"score" : 9932,
+			"filterVal" : "000001000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306675,
+			"name" : "Biologics and Conjugates CDMO Services",
+			"eventid" : 590,
+			"score" : 9931,
+			"filterVal" : "101100100001000010000100000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314083,
+			"name" : "Birch Triterpenes",
+			"eventid" : 590,
+			"score" : 9930,
+			"filterVal" : "100100100010000000000000100100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314996,
+			"name" : "Bone Marrow Biopsy Needle SURELOCK",
+			"eventid" : 590,
+			"score" : 9929,
+			"filterVal" : "000000000000101000010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296771,
+			"name" : "Cabazitaxel Acetonate",
+			"eventid" : 590,
+			"score" : 9928,
+			"filterVal" : "001010000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 876474,
+			"name" : "CDMO Services",
+			"eventid" : 590,
+			"score" : 9927,
+			"filterVal" : "100101110000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299293,
+			"name" : "Cell & Gene Therapy",
+			"eventid" : 590,
+			"score" : 9926,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1279156,
+			"name" : "Cephalosporins Finished Products",
+			"eventid" : 590,
+			"score" : 9925,
+			"filterVal" : "001011000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301547,
+			"name" : "Clarithromycin",
+			"eventid" : 590,
+			"score" : 9924,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301238,
+			"name" : "Complex injectables",
+			"eventid" : 590,
+			"score" : 9923,
+			"filterVal" : "100001100000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288369,
+			"name" : "Dabigatran Etexilate Mesylate",
+			"eventid" : 590,
+			"score" : 9922,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292874,
+			"name" : "e-Simject®",
+			"eventid" : 590,
+			"score" : 9921,
+			"filterVal" : "000000000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1263121,
+			"name" : "Early Stage Development - Integrated Programs",
+			"eventid" : 590,
+			"score" : 9920,
+			"filterVal" : "100100110000000000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291242,
+			"name" : "EDC-HCL",
+			"eventid" : 590,
+			"score" : 9919,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1054413,
+			"name" : "Esomeprazole Magnesium Trihydrate",
+			"eventid" : 590,
+			"score" : 9918,
+			"filterVal" : "110010000000010000001000011000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1307037,
+			"name" : "Eurogentec GMP BioManufacturing Services",
+			"eventid" : 590,
+			"score" : 9917,
+			"filterVal" : "100000100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101960,
+			"name" : "Filter Reactor",
+			"eventid" : 590,
+			"score" : 9916,
+			"filterVal" : "000000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1277299,
+			"name" : "Flamecrest - Fixed Dose Pen Injector",
+			"eventid" : 590,
+			"score" : 9915,
+			"filterVal" : "100000000000001010010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297367,
+			"name" : "Flurbiprofen",
+			"eventid" : 590,
+			"score" : 9914,
+			"filterVal" : "010010001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1293397,
+			"name" : "Fmoc-L-Arg(Pbf)-OH",
+			"eventid" : 590,
+			"score" : 9913,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1287846,
+			"name" : "Fold Pack pails",
+			"eventid" : 590,
+			"score" : 9912,
+			"filterVal" : "000000000000001000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299590,
+			"name" : "Formulation Development",
+			"eventid" : 590,
+			"score" : 9911,
+			"filterVal" : "100001000001001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314828,
+			"name" : "Fresh Tracker 10",
+			"eventid" : 590,
+			"score" : 9910,
+			"filterVal" : "000000000010101000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1312170,
+			"name" : "Generic API Product List",
+			"eventid" : 590,
+			"score" : 9909,
+			"filterVal" : "100010110110000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 182121,
+			"name" : "Glass ampoule formulation",
+			"eventid" : 590,
+			"score" : 9908,
+			"filterVal" : "100000010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1239767,
+			"name" : "Icatibant",
+			"eventid" : 590,
+			"score" : 9907,
+			"filterVal" : "001000100000000000100100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261931,
+			"name" : "Irbesartan",
+			"eventid" : 590,
+			"score" : 9906,
+			"filterVal" : "110101000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15581,
+			"name" : "Leuprorelin Acetate",
+			"eventid" : 590,
+			"score" : 9905,
+			"filterVal" : "111110010101000100000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 13499,
+			"name" : "Methylpentafluoropropionate other active pharmaceutical ingredients",
+			"eventid" : 590,
+			"score" : 9904,
+			"filterVal" : "100000000000000000000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304696,
+			"name" : "N-Iodosuccinimide",
+			"eventid" : 590,
+			"score" : 9903,
+			"filterVal" : "011000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 486071,
+			"name" : "Nitrofurantoin macrocrustals and monohydrate",
+			"eventid" : 590,
+			"score" : 9902,
+			"filterVal" : "110110001100000011000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260251,
+			"name" : "Olmesartan medoxomil",
+			"eventid" : 590,
+			"score" : 9901,
+			"filterVal" : "111010000100000001000100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 959980,
+			"name" : "Orlistat",
+			"eventid" : 590,
+			"score" : 9900,
+			"filterVal" : "110011011010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 487839,
+			"name" : "Oxaliplatin",
+			"eventid" : 590,
+			"score" : 9899,
+			"filterVal" : "110010000001000001001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313229,
+			"name" : "Pellets in Capsules",
+			"eventid" : 590,
+			"score" : 9898,
+			"filterVal" : "100001000010101000010000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284665,
+			"name" : "Phosphorous Acid",
+			"eventid" : 590,
+			"score" : 9897,
+			"filterVal" : "110000000000010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161940,
+			"name" : "Pimobendan",
+			"eventid" : 590,
+			"score" : 9896,
+			"filterVal" : "100100010001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 975718,
+			"name" : "PRODUCT LIST",
+			"eventid" : 590,
+			"score" : 9895,
+			"filterVal" : "100110110100000010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266232,
+			"name" : "Research & Development",
+			"eventid" : 590,
+			"score" : 9894,
+			"filterVal" : "110100100001000100001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 796999,
+			"name" : "Ruthenium Catalyst",
+			"eventid" : 590,
+			"score" : 9893,
+			"filterVal" : "110000000000000100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310708,
+			"name" : "Serialisation",
+			"eventid" : 590,
+			"score" : 9892,
+			"filterVal" : "110001000001001100010000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271558,
+			"name" : "Sodium Trichloroacetate",
+			"eventid" : 590,
+			"score" : 9891,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 19563,
+			"name" : "Spray Drying",
+			"eventid" : 590,
+			"score" : 9890,
+			"filterVal" : "101101100000000000100000000011",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257325,
+			"name" : "Sterile suites capabilities",
+			"eventid" : 590,
+			"score" : 9889,
+			"filterVal" : "100001110000000000101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306055,
+			"name" : "Streptococcus thermophilus iHA318®",
+			"eventid" : 590,
+			"score" : 9888,
+			"filterVal" : "001000000010100000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15188,
+			"name" : "Treprostinil",
+			"eventid" : 590,
+			"score" : 9887,
+			"filterVal" : "011010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271912,
+			"name" : "1-(Cyclopropylcarbonyl)piperazine",
+			"eventid" : 590,
+			"score" : 9886,
+			"filterVal" : "110000001010010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284807,
+			"name" : "3-Methoxy-4-methylbenzoic Acid",
+			"eventid" : 590,
+			"score" : 9885,
+			"filterVal" : "010000001000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1232702,
+			"name" : "4-Chloro-2,6-dimethyl-3-nitropyridine",
+			"eventid" : 590,
+			"score" : 9884,
+			"filterVal" : "110000011100110100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1311329,
+			"name" : "4-pentyn-1-ol （ CAS : 5390-04-5）",
+			"eventid" : 590,
+			"score" : 9883,
+			"filterVal" : "010010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 13761,
+			"name" : "5-ACETOACETYLAMINO BENZIMIDAZOLONE (AABI)",
+			"eventid" : 590,
+			"score" : 9882,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1293641,
+			"name" : "Amino Acid derivatives",
+			"eventid" : 590,
+			"score" : 9881,
+			"filterVal" : "111010000100000000000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261231,
+			"name" : "Antazoline Hydrochloride",
+			"eventid" : 590,
+			"score" : 9880,
+			"filterVal" : "111110001001000001000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 781586,
+			"name" : "API Services, Chemical Development & Manufacture",
+			"eventid" : 590,
+			"score" : 9879,
+			"filterVal" : "110001000001001100010000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301239,
+			"name" : "Biologics",
+			"eventid" : 590,
+			"score" : 9878,
+			"filterVal" : "100001100000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 20862,
+			"name" : "Bivalirudin Trifluoroacetate",
+			"eventid" : 590,
+			"score" : 9877,
+			"filterVal" : "101110100000000000100100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15206,
+			"name" : "Bivslirudin",
+			"eventid" : 590,
+			"score" : 9876,
+			"filterVal" : "111110010101000100000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306364,
+			"name" : "Cabozantinib",
+			"eventid" : 590,
+			"score" : 9875,
+			"filterVal" : "100100100010000000000000100100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257444,
+			"name" : "Candesartan Cilexetil",
+			"eventid" : 590,
+			"score" : 9874,
+			"filterVal" : "110101000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 487840,
+			"name" : "Carboplatin",
+			"eventid" : 590,
+			"score" : 9873,
+			"filterVal" : "110010000001000001001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1027937,
+			"name" : "CDMO Services - API",
+			"eventid" : 590,
+			"score" : 9872,
+			"filterVal" : "100101110000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1309898,
+			"name" : "Chemical Development",
+			"eventid" : 590,
+			"score" : 9871,
+			"filterVal" : "110100010101010010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 992901,
+			"name" : "Clinical Supply Solutions",
+			"eventid" : 590,
+			"score" : 9870,
+			"filterVal" : "100100100000000000100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301545,
+			"name" : "Clopidogrel Bisulfate",
+			"eventid" : 590,
+			"score" : 9869,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 483955,
+			"name" : "Diazepam",
+			"eventid" : 590,
+			"score" : 9868,
+			"filterVal" : "110110001100000011000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296770,
+			"name" : "Eltrombopag Olamine",
+			"eventid" : 590,
+			"score" : 9867,
+			"filterVal" : "001010000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1054409,
+			"name" : "Esomeprazole Magnesium Dihydrate",
+			"eventid" : 590,
+			"score" : 9866,
+			"filterVal" : "110010000000010000001000011000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299109,
+			"name" : "ETHYL ISOTHIOCYNATE",
+			"eventid" : 590,
+			"score" : 9865,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 958365,
+			"name" : "Everything for Inhalation",
+			"eventid" : 590,
+			"score" : 9864,
+			"filterVal" : "101101100000000000100000000011",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299291,
+			"name" : "Fill & Finish",
+			"eventid" : 590,
+			"score" : 9863,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1279155,
+			"name" : "Finished Products List(1)",
+			"eventid" : 590,
+			"score" : 9862,
+			"filterVal" : "001011000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1242111,
+			"name" : "Fmoc-Ala-OH.H2O",
+			"eventid" : 590,
+			"score" : 9861,
+			"filterVal" : "111010000100000000000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1294581,
+			"name" : "Fmoc-Amino Acids",
+			"eventid" : 590,
+			"score" : 9860,
+			"filterVal" : "111010000100000000000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1293468,
+			"name" : "Fmoc-L-Lys(Boc)-OH",
+			"eventid" : 590,
+			"score" : 9859,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266180,
+			"name" : "high capacity aseptic filling - bp 460",
+			"eventid" : 590,
+			"score" : 9858,
+			"filterVal" : "000000000000101000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299591,
+			"name" : "Integrated technology platform",
+			"eventid" : 590,
+			"score" : 9857,
+			"filterVal" : "100001000001001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15184,
+			"name" : "Isomer Free Latanoprost",
+			"eventid" : 590,
+			"score" : 9856,
+			"filterVal" : "011010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 797110,
+			"name" : "JosiPhos Palladacycle Gen. 3",
+			"eventid" : 590,
+			"score" : 9855,
+			"filterVal" : "110000000000000100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306056,
+			"name" : "Lactobacillus helveticus UA881®",
+			"eventid" : 590,
+			"score" : 9854,
+			"filterVal" : "001000000010100000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1263122,
+			"name" : "Late Stage Development - Integrated Programs",
+			"eventid" : 590,
+			"score" : 9853,
+			"filterVal" : "100100110000000000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 92743,
+			"name" : "Liraglutide",
+			"eventid" : 590,
+			"score" : 9852,
+			"filterVal" : "001000100000000000100100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1277298,
+			"name" : "Lophura - Disposable Pen Injector",
+			"eventid" : 590,
+			"score" : 9851,
+			"filterVal" : "100000000000001010010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292873,
+			"name" : "Multtipen®",
+			"eventid" : 590,
+			"score" : 9850,
+			"filterVal" : "000000000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1286178,
+			"name" : "N3-PEG11-NH2",
+			"eventid" : 590,
+			"score" : 9849,
+			"filterVal" : "110000101100010010101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101954,
+			"name" : "Nutsche Filter",
+			"eventid" : 590,
+			"score" : 9848,
+			"filterVal" : "000000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297366,
+			"name" : "Olopatadine HCl",
+			"eventid" : 590,
+			"score" : 9847,
+			"filterVal" : "010010001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257336,
+			"name" : "Oral capabilities",
+			"eventid" : 590,
+			"score" : 9846,
+			"filterVal" : "100001110000000000101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1231896,
+			"name" : "Pen injectors (prefilled and reusable)",
+			"eventid" : 590,
+			"score" : 9845,
+			"filterVal" : "000001000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1286180,
+			"name" : "Pharmaceutical Intermediates",
+			"eventid" : 590,
+			"score" : 9844,
+			"filterVal" : "110000101100010010101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1283071,
+			"name" : "Recycled Wide neck drums & Click Pack pails",
+			"eventid" : 590,
+			"score" : 9843,
+			"filterVal" : "000000000000001000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306673,
+			"name" : "Small Molecules CDMO Services",
+			"eventid" : 590,
+			"score" : 9842,
+			"filterVal" : "101100100001000010000100000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288371,
+			"name" : "Sugammadex Sodium",
+			"eventid" : 590,
+			"score" : 9841,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 959976,
+			"name" : "Tigecycline",
+			"eventid" : 590,
+			"score" : 9840,
+			"filterVal" : "110011011010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271556,
+			"name" : "Trichloroacetyl Chloride",
+			"eventid" : 590,
+			"score" : 9839,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314997,
+			"name" : "TSK SELECT™ NEEDLE",
+			"eventid" : 590,
+			"score" : 9838,
+			"filterVal" : "000000000000101000010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161937,
+			"name" : "Tulathromycin",
+			"eventid" : 590,
+			"score" : 9837,
+			"filterVal" : "100100010001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 182124,
+			"name" : "Vial formulation(powder/liquid/lyophilized products)",
+			"eventid" : 590,
+			"score" : 9836,
+			"filterVal" : "100000010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260250,
+			"name" : "Z-Arg(Pmc)-OH.CHA   CAS:112160-33-5",
+			"eventid" : 590,
+			"score" : 9835,
+			"filterVal" : "111010000100000001000100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 517373,
+			"name" : " 2-chloropyrimidine",
+			"eventid" : 590,
+			"score" : 9834,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 555670,
+			"name" : "[(2,6- dimethylphenyl) aminocarbonylmethyl]-chloride [1311-01-7]",
+			"eventid" : 590,
+			"score" : 9833,
+			"filterVal" : "011001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 523035,
+			"name" : "?-bromopropiophenone",
+			"eventid" : 590,
+			"score" : 9832,
+			"filterVal" : "110100001100110100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310933,
+			"name" : "? - Pyrrolidone",
+			"eventid" : 590,
+			"score" : 9831,
+			"filterVal" : "110001010100100100001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 587409,
+			"name" : "1, 3 - CYCLOHEXANEDIONE",
+			"eventid" : 590,
+			"score" : 9830,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290008,
+			"name" : "1 4-butane sultone",
+			"eventid" : 590,
+			"score" : 9829,
+			"filterVal" : "111101011100000000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 75996,
+			"name" : "1-(3-dimethylaminopropyl)-3-ethyl-carbodiimide",
+			"eventid" : 590,
+			"score" : 9828,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 98908,
+			"name" : "1-Amino-2-cyano-1-cyclopentene",
+			"eventid" : 590,
+			"score" : 9827,
+			"filterVal" : "110000000100100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1232630,
+			"name" : "1-Ethynyl-1-cyclohexanol",
+			"eventid" : 590,
+			"score" : 9826,
+			"filterVal" : "110000011100110100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187811,
+			"name" : "(11rs)-11-[3-(dimethylamino)propyl}-6,11-dihydrodibenzo[b,e]oxepin-11-ol (doxepinol)",
+			"eventid" : 590,
+			"score" : 9825,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 781587,
+			"name" : "14C Radiolabelling",
+			"eventid" : 590,
+			"score" : 9824,
+			"filterVal" : "110001000001001100010000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 594383,
+			"name" : "16-?-hydroxyprednisolone",
+			"eventid" : 590,
+			"score" : 9823,
+			"filterVal" : "101000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 67269,
+			"name" : "17a -hydroxy progesterone acetate",
+			"eventid" : 590,
+			"score" : 9822,
+			"filterVal" : "111001000100101100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 22813,
+			"name" : "(1R,2S,5S)-6,6-DIMETHYL-3-AZA-BICYCLO[3.1.0]HEXANE-2-CARBOXYLIC ACID METHYL ESTER HYDROCHL ORIDE",
+			"eventid" : 590,
+			"score" : 9821,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 238311,
+			"name" : "(1R,4S)-7-(hydroxymethyl)bicyclo[2.2.1] heptan-7-ol",
+			"eventid" : 590,
+			"score" : 9820,
+			"filterVal" : "110100000000100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299545,
+			"name" : "(1s, 2s, 3s, 5s)-3-(Benzyloxy)-5-(6-(Benzyloxy)-2",
+			"eventid" : 590,
+			"score" : 9819,
+			"filterVal" : "111000000001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1252025,
+			"name" : "2-(5-Amino-2-methylanilino)-4-(3-pyridyl)pyrimidine",
+			"eventid" : 590,
+			"score" : 9818,
+			"filterVal" : "110111001000010000000000110000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 78321,
+			"name" : "2-amino-3-nitrophenol",
+			"eventid" : 590,
+			"score" : 9817,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 700749,
+			"name" : "(2-Amino-5-chlorophenyl)(pyridin-2-yl)methanone",
+			"eventid" : 590,
+			"score" : 9816,
+			"filterVal" : "110100010100000010001000010010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1295531,
+			"name" : "2-Amino-5-methyl-thiazole",
+			"eventid" : 590,
+			"score" : 9815,
+			"filterVal" : "010000001000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1232632,
+			"name" : "2-Chloro-4-iodo-5-methylpyridine",
+			"eventid" : 590,
+			"score" : 9814,
+			"filterVal" : "110000011100110100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292705,
+			"name" : "2-Chlorophenol",
+			"eventid" : 590,
+			"score" : 9813,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 87392,
+			"name" : "2-Ethylaniline",
+			"eventid" : 590,
+			"score" : 9812,
+			"filterVal" : "011000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313685,
+			"name" : "2-Thiopheneacetic acid, CAS#1918-77-0",
+			"eventid" : 590,
+			"score" : 9811,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313452,
+			"name" : "2-Thiopheneacetonitrile",
+			"eventid" : 590,
+			"score" : 9810,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 464515,
+			"name" : "3 cef novo 1.5 injection",
+			"eventid" : 590,
+			"score" : 9809,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284808,
+			"name" : "3-Nitrobenzaldehyde",
+			"eventid" : 590,
+			"score" : 9808,
+			"filterVal" : "010000001000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 998998,
+			"name" : "(3r)-3-(2-Amino-2-Oxoethyl)-5-Methylhexanoic Acid",
+			"eventid" : 590,
+			"score" : 9807,
+			"filterVal" : "110100100001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 99849,
+			"name" : "4-Bromofluorobenzene",
+			"eventid" : 590,
+			"score" : 9806,
+			"filterVal" : "110000001010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 997304,
+			"name" : "(4-Carboxy Butyl)Triphenyl Phosphonium Bromide",
+			"eventid" : 590,
+			"score" : 9805,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 144851,
+			"name" : "(6-methyl-2-p-tolyl-imidazo [1,2-a]pyridine-3-yl) acetonitrile",
+			"eventid" : 590,
+			"score" : 9804,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 579055,
+			"name" : "7-ACT for Ceftriaxone",
+			"eventid" : 590,
+			"score" : 9803,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1312798,
+			"name" : "ABIRATERONE",
+			"eventid" : 590,
+			"score" : 9802,
+			"filterVal" : "100001100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1267565,
+			"name" : "Abiraterone acetate",
+			"eventid" : 590,
+			"score" : 9801,
+			"filterVal" : "100010000000000001000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306115,
+			"name" : "ACETAMINOPHEN 325 MG + DEXTROMETHORPHAN 10MG+ PHENYLEPHRINE HCl 5 MG SOFT GELATIN CAPSULES (NON-DROWSY DAY TIME COUGH AND COLD COMBINATION) SOFT GELATIN CAPSULES.",
+			"eventid" : 590,
+			"score" : 9800,
+			"filterVal" : "100001010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 13758,
+			"name" : "ACETOACET ANILIDE",
+			"eventid" : 590,
+			"score" : 9799,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 14321,
+			"name" : "acetoacet-m-xylidide",
+			"eventid" : 590,
+			"score" : 9798,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1032043,
+			"name" : "Act as an in-country caretaker of DMF",
+			"eventid" : 590,
+			"score" : 9797,
+			"filterVal" : "000010100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299141,
+			"name" : "ADC development",
+			"eventid" : 590,
+			"score" : 9796,
+			"filterVal" : "100100010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1038083,
+			"name" : "ADCs Manufacturing services",
+			"eventid" : 590,
+			"score" : 9795,
+			"filterVal" : "100001110000000000101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299392,
+			"name" : "Aircomb 5/10 mg(desloratadine/montelukast sodium) film tablet",
+			"eventid" : 590,
+			"score" : 9794,
+			"filterVal" : "100001010010000000000010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297916,
+			"name" : "Albendazole",
+			"eventid" : 590,
+			"score" : 9793,
+			"filterVal" : "000000000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 23642,
+			"name" : "Alprazolam",
+			"eventid" : 590,
+			"score" : 9792,
+			"filterVal" : "101100000000000000001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 538083,
+			"name" : "American Type Culture Collection (ATCC)",
+			"eventid" : 590,
+			"score" : 9791,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 86869,
+			"name" : "Amlexanox",
+			"eventid" : 590,
+			"score" : 9790,
+			"filterVal" : "001000000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1235671,
+			"name" : "Amobarbital Sodium",
+			"eventid" : 590,
+			"score" : 9789,
+			"filterVal" : "110100001000110010000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 781591,
+			"name" : "Analytical Services",
+			"eventid" : 590,
+			"score" : 9788,
+			"filterVal" : "110001000001001100010000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261256,
+			"name" : "Antazoline Phosphate",
+			"eventid" : 590,
+			"score" : 9787,
+			"filterVal" : "111110001001000001000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299120,
+			"name" : "Apalutamide",
+			"eventid" : 590,
+			"score" : 9786,
+			"filterVal" : "011011001010000001000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1312408,
+			"name" : "API",
+			"eventid" : 590,
+			"score" : 9785,
+			"filterVal" : "100010110110000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261103,
+			"name" : "API PORTFOLIO",
+			"eventid" : 590,
+			"score" : 9784,
+			"filterVal" : "101101100000000000100000000011",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 576859,
+			"name" : "Apixaban",
+			"eventid" : 590,
+			"score" : 9783,
+			"filterVal" : "011000001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1279558,
+			"name" : "Apixaban",
+			"eventid" : 590,
+			"score" : 9782,
+			"filterVal" : "110110001100000011000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161950,
+			"name" : "Aprepitant",
+			"eventid" : 590,
+			"score" : 9781,
+			"filterVal" : "100100010001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1030747,
+			"name" : "ASCPO NEEDLE",
+			"eventid" : 590,
+			"score" : 9780,
+			"filterVal" : "000000000000000000000011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304573,
+			"name" : "Asia's First Live audit report Library",
+			"eventid" : 590,
+			"score" : 9779,
+			"filterVal" : "100000000000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296731,
+			"name" : "Astaxanthin",
+			"eventid" : 590,
+			"score" : 9778,
+			"filterVal" : "100100010000100010000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 23968,
+			"name" : "Azacitidine",
+			"eventid" : 590,
+			"score" : 9777,
+			"filterVal" : "100110100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261258,
+			"name" : "Azilsartan Medoxomil Potassium",
+			"eventid" : 590,
+			"score" : 9776,
+			"filterVal" : "111110001001000001000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1254085,
+			"name" : "Baloxavir Marboxil",
+			"eventid" : 590,
+			"score" : 9775,
+			"filterVal" : "010001000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 487843,
+			"name" : "Bendamustine hydrochloride monohydrate",
+			"eventid" : 590,
+			"score" : 9774,
+			"filterVal" : "110010000001000001001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15185,
+			"name" : "Bimatoprost",
+			"eventid" : 590,
+			"score" : 9773,
+			"filterVal" : "011010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1081792,
+			"name" : "Biobased Wide neck drums & Packo jars",
+			"eventid" : 590,
+			"score" : 9772,
+			"filterVal" : "000000000000001000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1247104,
+			"name" : "Bis (pinacolato) diboron",
+			"eventid" : 590,
+			"score" : 9771,
+			"filterVal" : "110000001100010010000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306736,
+			"name" : "Bloomcolla™ Recombinant Human Collagen III (\"COL3-MD\") (Medical Device Grade)",
+			"eventid" : 590,
+			"score" : 9770,
+			"filterVal" : "001010100000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266299,
+			"name" : "Bromazepam",
+			"eventid" : 590,
+			"score" : 9769,
+			"filterVal" : "110110001100000011000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1056557,
+			"name" : "BROMINE DERIVATIVES, PHASE TRANSFER CATALYSTS, Intermediates, Lithium Compounds",
+			"eventid" : 590,
+			"score" : 9768,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 503380,
+			"name" : "Budesonide Oral & Respiratory grades",
+			"eventid" : 590,
+			"score" : 9767,
+			"filterVal" : "110010000000010000001000011000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 20871,
+			"name" : "Buserelin Acetate",
+			"eventid" : 590,
+			"score" : 9766,
+			"filterVal" : "101110100000000000100100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1287630,
+			"name" : "Cabozantinib S-Maleate",
+			"eventid" : 590,
+			"score" : 9765,
+			"filterVal" : "001001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 20872,
+			"name" : "Carbetocin Acetate",
+			"eventid" : 590,
+			"score" : 9764,
+			"filterVal" : "101110100000000000100100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291443,
+			"name" : "Cariprazine Cap.",
+			"eventid" : 590,
+			"score" : 9763,
+			"filterVal" : "000001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1027935,
+			"name" : "CDMO Services - FDF drugs",
+			"eventid" : 590,
+			"score" : 9762,
+			"filterVal" : "100101110000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1302118,
+			"name" : "CERVIRON ovules",
+			"eventid" : 590,
+			"score" : 9761,
+			"filterVal" : "100000010010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 566195,
+			"name" : "cGMP API Manufacture",
+			"eventid" : 590,
+			"score" : 9760,
+			"filterVal" : "100000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 510891,
+			"name" : "Chenodeoxycholic Acid or Chenodiol",
+			"eventid" : 590,
+			"score" : 9759,
+			"filterVal" : "111011010000010001000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 487841,
+			"name" : "Cisplatin",
+			"eventid" : 590,
+			"score" : 9758,
+			"filterVal" : "110010000001000001001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314849,
+			"name" : "CliniPilot",
+			"eventid" : 590,
+			"score" : 9757,
+			"filterVal" : "000001000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 986040,
+			"name" : "Cmc R & D Of Pharmaceuticals",
+			"eventid" : 590,
+			"score" : 9756,
+			"filterVal" : "100101000000000000001000000011",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101939,
+			"name" : "Concentration",
+			"eventid" : 590,
+			"score" : 9755,
+			"filterVal" : "000000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1280014,
+			"name" : "Consultation to enter Japanese Pharma and Medtech industry",
+			"eventid" : 590,
+			"score" : 9754,
+			"filterVal" : "000000000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 985890,
+			"name" : "Contract Manufacturing Dosage Forms Service",
+			"eventid" : 590,
+			"score" : 9753,
+			"filterVal" : "100001010000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271913,
+			"name" : "(Cyclopropylmethyl)piperazine",
+			"eventid" : 590,
+			"score" : 9752,
+			"filterVal" : "110000001010010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306365,
+			"name" : "Cytisine",
+			"eventid" : 590,
+			"score" : 9751,
+			"filterVal" : "100100100010000000000000100100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161951,
+			"name" : "Dapagliflozin",
+			"eventid" : 590,
+			"score" : 9750,
+			"filterVal" : "100100010001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 539481,
+			"name" : "Dapsone",
+			"eventid" : 590,
+			"score" : 9749,
+			"filterVal" : "100000100001000000000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306054,
+			"name" : "Deltatonin®  Longan Flower Extract",
+			"eventid" : 590,
+			"score" : 9748,
+			"filterVal" : "001000000010100000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15252,
+			"name" : "Desmopressin Acetate",
+			"eventid" : 590,
+			"score" : 9747,
+			"filterVal" : "111110010101000100000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 60878,
+			"name" : "Development, Import & Sales",
+			"eventid" : 590,
+			"score" : 9746,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1271910,
+			"name" : "Diphenyacetic Acid",
+			"eventid" : 590,
+			"score" : 9745,
+			"filterVal" : "110000001010010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260290,
+			"name" : "Drug Product",
+			"eventid" : 590,
+			"score" : 9744,
+			"filterVal" : "100001000001001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 992900,
+			"name" : "Drug Product Services",
+			"eventid" : 590,
+			"score" : 9743,
+			"filterVal" : "100100100000000000100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260288,
+			"name" : "Drug Substance",
+			"eventid" : 590,
+			"score" : 9742,
+			"filterVal" : "100001000001001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266376,
+			"name" : "Drug Substance",
+			"eventid" : 590,
+			"score" : 9741,
+			"filterVal" : "100100110000000000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290896,
+			"name" : "Drug Substance Services for Complex Small Molecules",
+			"eventid" : 590,
+			"score" : 9740,
+			"filterVal" : "100100100000000000100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299263,
+			"name" : "Eletriptan (20mg / 40mg)",
+			"eventid" : 590,
+			"score" : 9739,
+			"filterVal" : "100011110010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 600095,
+			"name" : "Emei ning",
+			"eventid" : 590,
+			"score" : 9738,
+			"filterVal" : "000001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1008035,
+			"name" : "Enzalutamide",
+			"eventid" : 590,
+			"score" : 9737,
+			"filterVal" : "101111010100100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 21777,
+			"name" : "Eribulin intermediates",
+			"eventid" : 590,
+			"score" : 9736,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306058,
+			"name" : "ESSENPRUNE®  Fermented Prunus domestica",
+			"eventid" : 590,
+			"score" : 9735,
+			"filterVal" : "001000000010100000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 21805,
+			"name" : "Exatecan mesylate intermediates",
+			"eventid" : 590,
+			"score" : 9734,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301543,
+			"name" : "Ezetimibe",
+			"eventid" : 590,
+			"score" : 9733,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301546,
+			"name" : "Fexofenadine HCl",
+			"eventid" : 590,
+			"score" : 9732,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1309897,
+			"name" : "Fine Chemicals Manufacturing",
+			"eventid" : 590,
+			"score" : 9731,
+			"filterVal" : "110100010101010010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1279157,
+			"name" : "Finished Products List(2)",
+			"eventid" : 590,
+			"score" : 9730,
+			"filterVal" : "001011000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288373,
+			"name" : "Firocoxib",
+			"eventid" : 590,
+			"score" : 9729,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288380,
+			"name" : "Fluralaner",
+			"eventid" : 590,
+			"score" : 9728,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1293466,
+			"name" : "Fmoc-L-Phe-OH",
+			"eventid" : 590,
+			"score" : 9727,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1293465,
+			"name" : "Fmoc-L-Trp(Boc)-OH",
+			"eventid" : 590,
+			"score" : 9726,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257471,
+			"name" : "Formulation Development",
+			"eventid" : 590,
+			"score" : 9725,
+			"filterVal" : "100100110000000000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1277301,
+			"name" : "Fulvetta - Reusable Pen Injector",
+			"eventid" : 590,
+			"score" : 9724,
+			"filterVal" : "100000000000001010010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 483956,
+			"name" : "Furosemide",
+			"eventid" : 590,
+			"score" : 9723,
+			"filterVal" : "110110001100000011000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1279153,
+			"name" : "General APIs",
+			"eventid" : 590,
+			"score" : 9722,
+			"filterVal" : "001011000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1027934,
+			"name" : "Genovior Products - API",
+			"eventid" : 590,
+			"score" : 9721,
+			"filterVal" : "100101110000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290965,
+			"name" : "Glargine",
+			"eventid" : 590,
+			"score" : 9720,
+			"filterVal" : "100000100000100000100000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 956007,
+			"name" : "Glycine",
+			"eventid" : 590,
+			"score" : 9719,
+			"filterVal" : "111100010000000100000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1309900,
+			"name" : "GMP API Manufacturing",
+			"eventid" : 590,
+			"score" : 9718,
+			"filterVal" : "110100010101010010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 465242,
+			"name" : "<Kei> Gomiren Alice Tang extract",
+			"eventid" : 590,
+			"score" : 9717,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260248,
+			"name" : "Hydrocortisone base/acetate",
+			"eventid" : 590,
+			"score" : 9716,
+			"filterVal" : "111010000100000001000100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101953,
+			"name" : "Industrial Evaporation",
+			"eventid" : 590,
+			"score" : 9715,
+			"filterVal" : "000000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304693,
+			"name" : "Iodine",
+			"eventid" : 590,
+			"score" : 9714,
+			"filterVal" : "011000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 959972,
+			"name" : "Isepamicin Sulfate",
+			"eventid" : 590,
+			"score" : 9713,
+			"filterVal" : "110011011010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1029927,
+			"name" : "Latanoprostene Bunod",
+			"eventid" : 590,
+			"score" : 9712,
+			"filterVal" : "011010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005360,
+			"name" : "Linaglipton",
+			"eventid" : 590,
+			"score" : 9711,
+			"filterVal" : "100010000000000001000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261475,
+			"name" : "Liquid Contract Manufacturing - solutions, suspensions, and nasal sprays",
+			"eventid" : 590,
+			"score" : 9710,
+			"filterVal" : "000001000001001000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299249,
+			"name" : "Lithium Iodide, Lithium Bromide , Lithium Chloride , Lithium Salts",
+			"eventid" : 590,
+			"score" : 9709,
+			"filterVal" : "111000001101000100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 959973,
+			"name" : "Meropenem",
+			"eventid" : 590,
+			"score" : 9708,
+			"filterVal" : "110011011010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 468981,
+			"name" : "Microcrystalline cellulose CEOLUS™ KG",
+			"eventid" : 590,
+			"score" : 9707,
+			"filterVal" : "100000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187606,
+			"name" : "Nbutyl lithium",
+			"eventid" : 590,
+			"score" : 9706,
+			"filterVal" : "111010001110110001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296633,
+			"name" : "NEOANTIGEN PEPTIDES",
+			"eventid" : 590,
+			"score" : 9705,
+			"filterVal" : "100110110100000010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 22251,
+			"name" : "Nestable drums",
+			"eventid" : 590,
+			"score" : 9704,
+			"filterVal" : "000000000000001000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 797109,
+			"name" : "Ni(o-tol)(PAd2-DalPhos)Cl, MorDalPhos and MorDalPhos Pd G6 Br",
+			"eventid" : 590,
+			"score" : 9703,
+			"filterVal" : "110000000000000100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 92742,
+			"name" : "Octreotide",
+			"eventid" : 590,
+			"score" : 9702,
+			"filterVal" : "001000100000000000100100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261104,
+			"name" : "OFF-PATENT APIs",
+			"eventid" : 590,
+			"score" : 9701,
+			"filterVal" : "101101100000000000100000000011",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161375,
+			"name" : "Oligonucleotides",
+			"eventid" : 590,
+			"score" : 9700,
+			"filterVal" : "110000100001100100001000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257443,
+			"name" : "Olmesartan Medoxomil",
+			"eventid" : 590,
+			"score" : 9699,
+			"filterVal" : "110101000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297629,
+			"name" : "Orforglipron (LY3502970)",
+			"eventid" : 590,
+			"score" : 9698,
+			"filterVal" : "100000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1266186,
+			"name" : "packaging of pharmaceuticals and cosmetics",
+			"eventid" : 590,
+			"score" : 9697,
+			"filterVal" : "000000000000101000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296778,
+			"name" : "Pemafibrate",
+			"eventid" : 590,
+			"score" : 9696,
+			"filterVal" : "001010000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 99511,
+			"name" : "Pentosan Polysulfate Sodium (PPS)",
+			"eventid" : 590,
+			"score" : 9695,
+			"filterVal" : "001001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297368,
+			"name" : "Phosphoramidites",
+			"eventid" : 590,
+			"score" : 9694,
+			"filterVal" : "010010001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297365,
+			"name" : "Pitavastatin Ca",
+			"eventid" : 590,
+			"score" : 9693,
+			"filterVal" : "010010001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1260249,
+			"name" : "Pregabalin",
+			"eventid" : 590,
+			"score" : 9692,
+			"filterVal" : "111010000100000001000100100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1286254,
+			"name" : "Propyl Gallate",
+			"eventid" : 590,
+			"score" : 9691,
+			"filterVal" : "110010000000010000001000011000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 768067,
+			"name" : "Quality control laboratories services",
+			"eventid" : 590,
+			"score" : 9690,
+			"filterVal" : "100001110000000000101000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306366,
+			"name" : "Resmetirom",
+			"eventid" : 590,
+			"score" : 9689,
+			"filterVal" : "100100100010000000000000100100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1233912,
+			"name" : "Rilpvirine Hydrochloride",
+			"eventid" : 590,
+			"score" : 9688,
+			"filterVal" : "110010000000010000001000011000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1277302,
+			"name" : "Rosefinch - Autoinjector",
+			"eventid" : 590,
+			"score" : 9687,
+			"filterVal" : "100000000000001010010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 797107,
+			"name" : "RuCl[(R,R)-Tsdpen](p-cymene)",
+			"eventid" : 590,
+			"score" : 9686,
+			"filterVal" : "110000000000000100000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 599337,
+			"name" : "(S)-Ketamine hydrochloride",
+			"eventid" : 590,
+			"score" : 9685,
+			"filterVal" : "101110000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 62078,
+			"name" : "(s,s,s)-2-azabicycl[3,3,0]- octane-3-carboxylic acid benzylester hydrochlorde",
+			"eventid" : 590,
+			"score" : 9684,
+			"filterVal" : "100100000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257437,
+			"name" : "Sacubitril / Valsartan",
+			"eventid" : 590,
+			"score" : 9683,
+			"filterVal" : "110101000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292872,
+			"name" : "Simject®",
+			"eventid" : 590,
+			"score" : 9682,
+			"filterVal" : "000000000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299294,
+			"name" : "Small Molecules",
+			"eventid" : 590,
+			"score" : 9681,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1004636,
+			"name" : "Small & large molecule Discovery & Development",
+			"eventid" : 590,
+			"score" : 9680,
+			"filterVal" : "100100110000000010100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292876,
+			"name" : "Syrpen®",
+			"eventid" : 590,
+			"score" : 9679,
+			"filterVal" : "000000000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296769,
+			"name" : "Tafamidis",
+			"eventid" : 590,
+			"score" : 9678,
+			"filterVal" : "001010000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284678,
+			"name" : "Tert-amyl Alcohol",
+			"eventid" : 590,
+			"score" : 9677,
+			"filterVal" : "110000000000010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306674,
+			"name" : "Tides CDMO Services",
+			"eventid" : 590,
+			"score" : 9676,
+			"filterVal" : "101100100001000010000100000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299110,
+			"name" : "TRANS -4 AMINOCYCLOHEXANOL",
+			"eventid" : 590,
+			"score" : 9675,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15186,
+			"name" : "Travoprost (Isomer Free)",
+			"eventid" : 590,
+			"score" : 9674,
+			"filterVal" : "011010000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 15205,
+			"name" : "Triptorelin Acetate",
+			"eventid" : 590,
+			"score" : 9673,
+			"filterVal" : "111110010101000100000100000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314998,
+			"name" : "TSK Syringe",
+			"eventid" : 590,
+			"score" : 9672,
+			"filterVal" : "000000000000101000010010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1314026,
+			"name" : "Vitamins",
+			"eventid" : 590,
+			"score" : 9671,
+			"filterVal" : "110000001110010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288368,
+			"name" : "Vonoprazan fumarate",
+			"eventid" : 590,
+			"score" : 9670,
+			"filterVal" : "100100100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299292,
+			"name" : "xRNA",
+			"eventid" : 590,
+			"score" : 9669,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1307013,
+			"name" : "YpsoFlow",
+			"eventid" : 590,
+			"score" : 9668,
+			"filterVal" : "000001000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310763,
+			"name" : "ZCL Product LIst",
+			"eventid" : 590,
+			"score" : 9667,
+			"filterVal" : "100100100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1305574,
+			"name" : "Zihua Embrocation 12ml",
+			"eventid" : 590,
+			"score" : 9666,
+			"filterVal" : "000001000010100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284765,
+			"name" : "Zinc Sulfide (REACH available)",
+			"eventid" : 590,
+			"score" : 9665,
+			"filterVal" : "110000000000010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 517702,
+			"name" : " 4-cyanobenzoic acid",
+			"eventid" : 590,
+			"score" : 9664,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310932,
+			"name" : "?-(2-(4-chlorophenyl)ethyl-?-(1,1-dimethylethyl)oxirane",
+			"eventid" : 590,
+			"score" : 9663,
+			"filterVal" : "110001010100100100001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 523082,
+			"name" : "?-diphenyl-benzenebutanamide",
+			"eventid" : 590,
+			"score" : 9662,
+			"filterVal" : "110100001100110100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 587413,
+			"name" : "1, 4 - CYCLOHEXANEDIOL",
+			"eventid" : 590,
+			"score" : 9661,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 144847,
+			"name" : "1-(3,4-dichlorobenzyl)-3-(2-phenoxyethyl)-2-iminobenzimidazole",
+			"eventid" : 590,
+			"score" : 9660,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 997291,
+			"name" : "1-Bromo-2-Iodobenzene",
+			"eventid" : 590,
+			"score" : 9659,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299252,
+			"name" : "1-Bromo-2-Methylpropane",
+			"eventid" : 590,
+			"score" : 9658,
+			"filterVal" : "111000001101000100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 555675,
+			"name" : "[1-hydroxy-2-(3-pyridinyl) ethylidene]-biphosphonic acid [105462-24-6]",
+			"eventid" : 590,
+			"score" : 9657,
+			"filterVal" : "011001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 62068,
+			"name" : "1-hydroxy-benzontriazole",
+			"eventid" : 590,
+			"score" : 9656,
+			"filterVal" : "100100000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 75949,
+			"name" : "1-phenyl-2-mercaptobenzimidazole",
+			"eventid" : 590,
+			"score" : 9655,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290014,
+			"name" : "1-Phenyl-5-pyridin-2-ylpyridin-2-one",
+			"eventid" : 590,
+			"score" : 9654,
+			"filterVal" : "111101011100000000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 21797,
+			"name" : "(1R,2S)-2-fluorocyclopropanecarboxylic acid",
+			"eventid" : 590,
+			"score" : 9653,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187800,
+			"name" : "(1rs)-1-phenyl-1-(pyridine-2-yl)ethanol",
+			"eventid" : 590,
+			"score" : 9652,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 87387,
+			"name" : "2,4-Dimethyl-Nitrobenzene",
+			"eventid" : 590,
+			"score" : 9651,
+			"filterVal" : "011000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 238511,
+			"name" : "(2-(chloromethoxy)ethyl)trimethylsilane",
+			"eventid" : 590,
+			"score" : 9650,
+			"filterVal" : "110100000000100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 78344,
+			"name" : "2-amino-4-chloro-5-nitro phenol",
+			"eventid" : 590,
+			"score" : 9649,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 67201,
+			"name" : "2-hydroxy propiophenone99%min",
+			"eventid" : 590,
+			"score" : 9648,
+			"filterVal" : "111001000100101100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 98924,
+			"name" : "2-Phenylbutyric acid",
+			"eventid" : 590,
+			"score" : 9647,
+			"filterVal" : "110000000100100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 700662,
+			"name" : "(2R,6R)-2,6-diphenyl-2,3,5,6-tetrahydro-1H-imidazo[1,2-a]imidazole",
+			"eventid" : 590,
+			"score" : 9646,
+			"filterVal" : "110100010100000010001000010010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299544,
+			"name" : "(2r-Cis)-5-(4-Amino-1,2-Dihydro-2-Oxo-1-Pyrimidinyl)-1,3-Oxathiolane-2",
+			"eventid" : 590,
+			"score" : 9645,
+			"filterVal" : "111000000001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 464516,
+			"name" : "3 cef novo 375 injection",
+			"eventid" : 590,
+			"score" : 9644,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 99854,
+			"name" : "4-Fluorophenol",
+			"eventid" : 590,
+			"score" : 9643,
+			"filterVal" : "110000001010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 579053,
+			"name" : "7-AMC for Cefroxadine",
+			"eventid" : 590,
+			"score" : 9642,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1252036,
+			"name" : "8-Bromo-7-(2-butyn-1-yl)-3,7-dihydro-3-methyl-1H-purine-2,6-dione",
+			"eventid" : 590,
+			"score" : 9641,
+			"filterVal" : "110111001000010000000000110000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 568667,
+			"name" : "Abacavir Sulfate",
+			"eventid" : 590,
+			"score" : 9640,
+			"filterVal" : "100001100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 874029,
+			"name" : "Abiraterone Acetate ",
+			"eventid" : 590,
+			"score" : 9639,
+			"filterVal" : "101111010100100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1031659,
+			"name" : "Abiraterone Actetae",
+			"eventid" : 590,
+			"score" : 9638,
+			"filterVal" : "101000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306116,
+			"name" : "ACETAMINOPHEN 325 MG + DEXTROMETHORPHAN 15 MG+ DOXYLAMINE SUCCINATE 6.25 MG SOFT GELATIN CAPSULES (DROWSINESS CAUSING NIGHT TIME COUGH AND COLD COMBINATION) SOFT GELATIN CAPSULES.",
+			"eventid" : 590,
+			"score" : 9637,
+			"filterVal" : "100001010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292703,
+			"name" : "Acetic anhydride",
+			"eventid" : 590,
+			"score" : 9636,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313658,
+			"name" : "Acetyl Pyridines",
+			"eventid" : 590,
+			"score" : 9635,
+			"filterVal" : "110000001110010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299140,
+			"name" : "ADC manufacturing",
+			"eventid" : 590,
+			"score" : 9634,
+			"filterVal" : "100100010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299391,
+			"name" : "Airfix film tablet and airfix chewable(montelukast sodium) tablet",
+			"eventid" : 590,
+			"score" : 9633,
+			"filterVal" : "100001010010000000000010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161376,
+			"name" : "Amidite monomers",
+			"eventid" : 590,
+			"score" : 9632,
+			"filterVal" : "110000100001100100001000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1312287,
+			"name" : "Amino acids EP11/pharma grade",
+			"eventid" : 590,
+			"score" : 9631,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 534922,
+			"name" : "Analytical and Regulatory Services",
+			"eventid" : 590,
+			"score" : 9630,
+			"filterVal" : "100010000000000001000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 538085,
+			"name" : "APIs and intermediates",
+			"eventid" : 590,
+			"score" : 9629,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297918,
+			"name" : "Atorvastatin calcium",
+			"eventid" : 590,
+			"score" : 9628,
+			"filterVal" : "000000000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 23645,
+			"name" : "Azathioprine",
+			"eventid" : 590,
+			"score" : 9627,
+			"filterVal" : "101100000000000000001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 576848,
+			"name" : "Azilsartan medoxomil",
+			"eventid" : 590,
+			"score" : 9626,
+			"filterVal" : "011000001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 553411,
+			"name" : "Azithromycin",
+			"eventid" : 590,
+			"score" : 9625,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1235673,
+			"name" : "Barbital",
+			"eventid" : 590,
+			"score" : 9624,
+			"filterVal" : "110100001000110010000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 992906,
+			"name" : "Bioanalytical CRO Services",
+			"eventid" : 590,
+			"score" : 9623,
+			"filterVal" : "100100100000000000100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 599342,
+			"name" : "Bisoprolol fumarate",
+			"eventid" : 590,
+			"score" : 9622,
+			"filterVal" : "101110000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306734,
+			"name" : "Bloomecto™ Ectoine (Pharmaceutical Grade)",
+			"eventid" : 590,
+			"score" : 9621,
+			"filterVal" : "001010100000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 510892,
+			"name" : "Chenodeoxycholic Acid Sodium Salt",
+			"eventid" : 590,
+			"score" : 9620,
+			"filterVal" : "111011010000010001000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 987535,
+			"name" : "Choline Fenofibrate",
+			"eventid" : 590,
+			"score" : 9619,
+			"filterVal" : "100100100101100000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 86865,
+			"name" : "Clarithromycin lactobionate",
+			"eventid" : 590,
+			"score" : 9618,
+			"filterVal" : "001000000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 985891,
+			"name" : "Contract Manufacturing Package Services",
+			"eventid" : 590,
+			"score" : 9617,
+			"filterVal" : "100001010000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 972250,
+			"name" : "Dimethyl Fumarate",
+			"eventid" : 590,
+			"score" : 9616,
+			"filterVal" : "100110100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 566197,
+			"name" : "Discovery Chemistry",
+			"eventid" : 590,
+			"score" : 9615,
+			"filterVal" : "100000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1307617,
+			"name" : "Doxercalciferol",
+			"eventid" : 590,
+			"score" : 9614,
+			"filterVal" : "100000100001000000000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291442,
+			"name" : "Enzalutamide Tab.",
+			"eventid" : 590,
+			"score" : 9613,
+			"filterVal" : "000001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1302356,
+			"name" : "Etomidate",
+			"eventid" : 590,
+			"score" : 9612,
+			"filterVal" : "001001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 474207,
+			"name" : "F-melt®",
+			"eventid" : 590,
+			"score" : 9611,
+			"filterVal" : "100100010000100010000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1280064,
+			"name" : "Felice Dose",
+			"eventid" : 590,
+			"score" : 9610,
+			"filterVal" : "000000000000000000000011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299262,
+			"name" : "Felopidine Tablet (2.5mg / 5mg / 10mg)",
+			"eventid" : 590,
+			"score" : 9609,
+			"filterVal" : "100011110010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 600110,
+			"name" : "Fondi (sulfate injection cefoselis)",
+			"eventid" : 590,
+			"score" : 9608,
+			"filterVal" : "000001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304574,
+			"name" : "GMP audits",
+			"eventid" : 590,
+			"score" : 9607,
+			"filterVal" : "100000000000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 60880,
+			"name" : "GMP Warehouse",
+			"eventid" : 590,
+			"score" : 9606,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1302119,
+			"name" : "HALOVA ovules",
+			"eventid" : 590,
+			"score" : 9605,
+			"filterVal" : "100000010010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1280015,
+			"name" : "High quality rapid tool manufacturing",
+			"eventid" : 590,
+			"score" : 9604,
+			"filterVal" : "000000000000001000010011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1032038,
+			"name" : "Import & sale of APIs & intermediates",
+			"eventid" : 590,
+			"score" : 9603,
+			"filterVal" : "000010100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1004637,
+			"name" : "Integrated Drug Substance-Drug Product development",
+			"eventid" : 590,
+			"score" : 9602,
+			"filterVal" : "100100110000000010100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 465239,
+			"name" : "<Old> Kinikawamogusayu extract",
+			"eventid" : 590,
+			"score" : 9601,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101205,
+			"name" : "Melatonin",
+			"eventid" : 590,
+			"score" : 9600,
+			"filterVal" : "001001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299119,
+			"name" : "Micafungin / Necleus",
+			"eventid" : 590,
+			"score" : 9599,
+			"filterVal" : "011011001010000001000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 468993,
+			"name" : "Microcrystalline cellulose CEOLUS™ UF",
+			"eventid" : 590,
+			"score" : 9598,
+			"filterVal" : "100000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288383,
+			"name" : "NUCLEOSIDE",
+			"eventid" : 590,
+			"score" : 9597,
+			"filterVal" : "100100100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290964,
+			"name" : "Pegfilgrastim",
+			"eventid" : 590,
+			"score" : 9596,
+			"filterVal" : "100000100000100000100000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1254084,
+			"name" : "Pregabalin",
+			"eventid" : 590,
+			"score" : 9595,
+			"filterVal" : "010001000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1161902,
+			"name" : "Process Development",
+			"eventid" : 590,
+			"score" : 9594,
+			"filterVal" : "100000010000000000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 956025,
+			"name" : "Protamine sulfate",
+			"eventid" : 590,
+			"score" : 9593,
+			"filterVal" : "111100010000000100000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1247105,
+			"name" : "(R)-(+)-2-Methyl-2-propanesulfinamide",
+			"eventid" : 590,
+			"score" : 9592,
+			"filterVal" : "110000001100010010000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 998988,
+			"name" : "(S)-Methyl 2-(N-((2'-Cyanobiphenyl-4-Yl)Methyl) Pentanamido) -3-Methylbutanoate",
+			"eventid" : 590,
+			"score" : 9591,
+			"filterVal" : "110100100001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261474,
+			"name" : "Semi-Solid Contract Manufacturing - Creams, ointments, gels, paste",
+			"eventid" : 590,
+			"score" : 9590,
+			"filterVal" : "000001000001001000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187605,
+			"name" : "sodium triacetoxyborohydride (STAB)",
+			"eventid" : 590,
+			"score" : 9589,
+			"filterVal" : "111010001110110001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005359,
+			"name" : "Solifenacin Succinate",
+			"eventid" : 590,
+			"score" : 9588,
+			"filterVal" : "100010000000000001000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 543616,
+			"name" : "(-) taddol",
+			"eventid" : 590,
+			"score" : 9587,
+			"filterVal" : "110100001100110100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 517082,
+			"name" : "(-) trans-4r-(4-fluorophenyl)-3s- hydroxymethyl-1-methyl piperidine",
+			"eventid" : 590,
+			"score" : 9586,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 76013,
+			"name" : "1,1-cyclopropanedicarboxylic acid",
+			"eventid" : 590,
+			"score" : 9585,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 555657,
+			"name" : "[1,1'-biphenyl]-2-carbonitrile-4-[(2-butyl-4-oxo-1,3-diazaspiro [4.4]-non- 1-en-3-yl)- methyl]",
+			"eventid" : 590,
+			"score" : 9584,
+			"filterVal" : "011001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 999007,
+			"name" : "1-(3-Carboxypyridyl)-2-Phenyl-4-Methylpiperazine",
+			"eventid" : 590,
+			"score" : 9583,
+			"filterVal" : "110100100001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 997292,
+			"name" : "1-Bromo-3-Chloro-4-Iodobenzene",
+			"eventid" : 590,
+			"score" : 9582,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299251,
+			"name" : "1-Bromo-3-Methylbutane",
+			"eventid" : 590,
+			"score" : 9581,
+			"filterVal" : "111000001101000100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 144817,
+			"name" : "1-ethyl-1,2,3,4-tetrazole",
+			"eventid" : 590,
+			"score" : 9580,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 21798,
+			"name" : "(1R,2S)-fluorocyclopropanamine",
+			"eventid" : 590,
+			"score" : 9579,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 67191,
+			"name" : "2,3-dichloro benzaldehyde 99%min",
+			"eventid" : 590,
+			"score" : 9578,
+			"filterVal" : "111001000100101100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 587416,
+			"name" : "2, 4 - THIAZOLIDINEDIONE",
+			"eventid" : 590,
+			"score" : 9577,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 87383,
+			"name" : "2,4-Xylidine",
+			"eventid" : 590,
+			"score" : 9576,
+			"filterVal" : "011000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290021,
+			"name" : "2-(4-Bromophenyl)-2-methylpropionic acid",
+			"eventid" : 590,
+			"score" : 9575,
+			"filterVal" : "111101011100000000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 78342,
+			"name" : "2-amino-5-nitrophenol",
+			"eventid" : 590,
+			"score" : 9574,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187940,
+			"name" : "(2-amino-5-nitrophenyl)phenylmethanone.",
+			"eventid" : 590,
+			"score" : 9573,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 62081,
+			"name" : "2-bromo-6-methoxy- naphathaline",
+			"eventid" : 590,
+			"score" : 9572,
+			"filterVal" : "100100000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 238293,
+			"name" : "(2-chloro-5-(trifluoromethyl)phenyl)methanol",
+			"eventid" : 590,
+			"score" : 9571,
+			"filterVal" : "110100000000100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 98923,
+			"name" : "2-Phenylbutyryl chloride",
+			"eventid" : 590,
+			"score" : 9570,
+			"filterVal" : "110000000100100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 700725,
+			"name" : "(2R)-2-Piperidine Methanamine",
+			"eventid" : 590,
+			"score" : 9569,
+			"filterVal" : "110100010100000010001000010010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299543,
+			"name" : "(2r,5r)-5-(4-Amino-5-Fluoro-2-Oxo-2h-Pyrimidin)-1-Yl-[1,3]-Oxathiolane",
+			"eventid" : 590,
+			"score" : 9568,
+			"filterVal" : "111000000001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 464517,
+			"name" : "3 cef novo 750 injection",
+			"eventid" : 590,
+			"score" : 9567,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005664,
+			"name" : "4-Fluoroanisole",
+			"eventid" : 590,
+			"score" : 9566,
+			"filterVal" : "110000001010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 579052,
+			"name" : "7-AMCA for Cefpodoxime",
+			"eventid" : 590,
+			"score" : 9565,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 568668,
+			"name" : "Abacavir Sulfate + Lamivudine",
+			"eventid" : 590,
+			"score" : 9564,
+			"filterVal" : "100001100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 558262,
+			"name" : "Actiskenan",
+			"eventid" : 590,
+			"score" : 9563,
+			"filterVal" : "100001000010101000010000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 564255,
+			"name" : "Adenosine (Adenosine)",
+			"eventid" : 590,
+			"score" : 9562,
+			"filterVal" : "110000100001100100001000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299390,
+			"name" : "Alatab 600mg (Alpha Lipoic Acid) 30 film tablets",
+			"eventid" : 590,
+			"score" : 9561,
+			"filterVal" : "100001010010000000000010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 99058,
+			"name" : "Alfacalcidol Soft Gels 0.25 mcg",
+			"eventid" : 590,
+			"score" : 9560,
+			"filterVal" : "100001010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 594415,
+			"name" : "Allylestrenol",
+			"eventid" : 590,
+			"score" : 9559,
+			"filterVal" : "101000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313659,
+			"name" : "Amino Pyridines",
+			"eventid" : 590,
+			"score" : 9558,
+			"filterVal" : "110000001110010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 534883,
+			"name" : "Anastrozole",
+			"eventid" : 590,
+			"score" : 9557,
+			"filterVal" : "100010000000000001000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1300686,
+			"name" : "Aprotinin",
+			"eventid" : 590,
+			"score" : 9556,
+			"filterVal" : "011011001010000001000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1235676,
+			"name" : "Barbital Sodium",
+			"eventid" : 590,
+			"score" : 9555,
+			"filterVal" : "110100001000110010000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 553425,
+			"name" : "Beclomethasone Dipropionate",
+			"eventid" : 590,
+			"score" : 9554,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1257513,
+			"name" : "Benserazide",
+			"eventid" : 590,
+			"score" : 9553,
+			"filterVal" : "101100000000000000001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306735,
+			"name" : "BloomseaN™ PDRN / Polydeoxyribonucleotide (Pharmaceutical Grade)",
+			"eventid" : 590,
+			"score" : 9552,
+			"filterVal" : "001010100000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 599323,
+			"name" : "Brompheniramine maleate",
+			"eventid" : 590,
+			"score" : 9551,
+			"filterVal" : "101110000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 23973,
+			"name" : "Cabazitaxel Amorphous",
+			"eventid" : 590,
+			"score" : 9550,
+			"filterVal" : "100110100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 576853,
+			"name" : "Candesartan",
+			"eventid" : 590,
+			"score" : 9549,
+			"filterVal" : "011000001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299142,
+			"name" : "Chemistry Services",
+			"eventid" : 590,
+			"score" : 9548,
+			"filterVal" : "100100010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 510893,
+			"name" : "Cholic Acid Pharmaceutical Grade",
+			"eventid" : 590,
+			"score" : 9547,
+			"filterVal" : "111011010000010001000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 987537,
+			"name" : "Ciclopirox",
+			"eventid" : 590,
+			"score" : 9546,
+			"filterVal" : "100100100101100000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005358,
+			"name" : "Cinacalcet HCl",
+			"eventid" : 590,
+			"score" : 9545,
+			"filterVal" : "100010000000000001000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 86866,
+			"name" : "Clemastine fumarate",
+			"eventid" : 590,
+			"score" : 9544,
+			"filterVal" : "001000000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 535700,
+			"name" : "Clinical supplies",
+			"eventid" : 590,
+			"score" : 9543,
+			"filterVal" : "100100110000000010100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296634,
+			"name" : "COSMETIC PEPTIDES",
+			"eventid" : 590,
+			"score" : 9542,
+			"filterVal" : "100110110100000010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292704,
+			"name" : "Diethyl ether",
+			"eventid" : 590,
+			"score" : 9541,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 538084,
+			"name" : "Drug Discovery Instruments",
+			"eventid" : 590,
+			"score" : 9540,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1254083,
+			"name" : "Emtricitabine",
+			"eventid" : 590,
+			"score" : 9539,
+			"filterVal" : "010001000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1307616,
+			"name" : "Enzalutamide",
+			"eventid" : 590,
+			"score" : 9538,
+			"filterVal" : "100000100001000000000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 874036,
+			"name" : "Eplerenone",
+			"eventid" : 590,
+			"score" : 9537,
+			"filterVal" : "101111010100100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 600101,
+			"name" : "Fry because (gliclazide mr)",
+			"eventid" : 590,
+			"score" : 9536,
+			"filterVal" : "000001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 474206,
+			"name" : "Fujicalin®",
+			"eventid" : 590,
+			"score" : 9535,
+			"filterVal" : "100100010000100010000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1295516,
+			"name" : "Gemcitabine hydrochloride",
+			"eventid" : 590,
+			"score" : 9534,
+			"filterVal" : "001001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291445,
+			"name" : "Guanfacine SR Tab.",
+			"eventid" : 590,
+			"score" : 9533,
+			"filterVal" : "000001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1280066,
+			"name" : "i Platform",
+			"eventid" : 590,
+			"score" : 9532,
+			"filterVal" : "000000000000000000000011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 566196,
+			"name" : "Intermediate Manufacture",
+			"eventid" : 590,
+			"score" : 9531,
+			"filterVal" : "100000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1307229,
+			"name" : "Kaneka Technology and Services",
+			"eventid" : 590,
+			"score" : 9530,
+			"filterVal" : "100000100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 465249,
+			"name" : "<Well> Keishi hoelen Maru-ryo addition yi hot water extract",
+			"eventid" : 590,
+			"score" : 9529,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1312288,
+			"name" : "L-Carnitine",
+			"eventid" : 590,
+			"score" : 9528,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297917,
+			"name" : "Levamisole",
+			"eventid" : 590,
+			"score" : 9527,
+			"filterVal" : "000000000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101178,
+			"name" : "Lidocaine / Meloxiam",
+			"eventid" : 590,
+			"score" : 9526,
+			"filterVal" : "001001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299261,
+			"name" : "Micafungin Sodium Injection (50mg / 100mg)",
+			"eventid" : 590,
+			"score" : 9525,
+			"filterVal" : "100011110010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 468997,
+			"name" : "Microcrystalline cellulose sphere CELPHERE™",
+			"eventid" : 590,
+			"score" : 9524,
+			"filterVal" : "100000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288386,
+			"name" : "Mirabegron",
+			"eventid" : 590,
+			"score" : 9523,
+			"filterVal" : "100100100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1252150,
+			"name" : "N-Trityl-L-Tyrosin methyl ester",
+			"eventid" : 590,
+			"score" : 9522,
+			"filterVal" : "110111001000010000000000110000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187619,
+			"name" : "Omeprazole Pellets",
+			"eventid" : 590,
+			"score" : 9521,
+			"filterVal" : "111010001110110001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1284769,
+			"name" : "Poly dimethyl siloxane ( Dimethyl silicone fluid 201)",
+			"eventid" : 590,
+			"score" : 9520,
+			"filterVal" : "110000000000010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304694,
+			"name" : "Potassium Iodate",
+			"eventid" : 590,
+			"score" : 9519,
+			"filterVal" : "011000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304575,
+			"name" : "Quality Compliance Services",
+			"eventid" : 590,
+			"score" : 9518,
+			"filterVal" : "100000000000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 60881,
+			"name" : "Quality Tests",
+			"eventid" : 590,
+			"score" : 9517,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 521537,
+			"name" : "(S)-(-)-2-Methyl-2-propanesulfinamide",
+			"eventid" : 590,
+			"score" : 9516,
+			"filterVal" : "110000001100010010000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310931,
+			"name" : "(S)-2-(4-chlorophenyl)-3-methyl) butyric acid",
+			"eventid" : 590,
+			"score" : 9515,
+			"filterVal" : "110001010100100100001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1261473,
+			"name" : "Solid Dose Contract Manufacturing",
+			"eventid" : 590,
+			"score" : 9514,
+			"filterVal" : "000001000001001000000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290967,
+			"name" : "Statins",
+			"eventid" : 590,
+			"score" : 9513,
+			"filterVal" : "100000100000100000100000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1032045,
+			"name" : "Support to accreditation of foreign manufacturers",
+			"eventid" : 590,
+			"score" : 9512,
+			"filterVal" : "000010100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 956023,
+			"name" : "Trifluorothymidine",
+			"eventid" : 590,
+			"score" : 9511,
+			"filterVal" : "111100010000000100000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 517088,
+			"name" : "(-)-4-[4-(dimethylamino) -1-(4'-fluorophenyl) -1-(hydroxybutyl) -3-(hydroxymethyl)benzonitrile. Hemi(+)-di-p-toloyltrartaric acid salt",
+			"eventid" : 590,
+			"score" : 9510,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 517042,
+			"name" : "((4-phenylbutyl)hydroxyphosphoryl)acetic acid",
+			"eventid" : 590,
+			"score" : 9509,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1252105,
+			"name" : "?-D-Ribofuranose-1,2,3,5-Tetraacetate",
+			"eventid" : 590,
+			"score" : 9508,
+			"filterVal" : "110111001000010000000000110000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 523049,
+			"name" : "(+)-menthadienol",
+			"eventid" : 590,
+			"score" : 9507,
+			"filterVal" : "110100001100110100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 543615,
+			"name" : "(+) taddol",
+			"eventid" : 590,
+			"score" : 9506,
+			"filterVal" : "110100001100110100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 144889,
+			"name" : "1,1-diphenyl ethanol",
+			"eventid" : 590,
+			"score" : 9505,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310930,
+			"name" : "1-(2,4-Dihydroxy-Phenyl)1 (4-hydro xy-phenyl)-Ethanone",
+			"eventid" : 590,
+			"score" : 9504,
+			"filterVal" : "110001010100100100001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 555672,
+			"name" : "1- (2-methoxyphenoxy) -2,3-epoxypropane. [2210-74-4]",
+			"eventid" : 590,
+			"score" : 9503,
+			"filterVal" : "011001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 999004,
+			"name" : "1-(3-Chloropropyl)-1,3-Dihydro-2h-Benzimidazol-2-One",
+			"eventid" : 590,
+			"score" : 9502,
+			"filterVal" : "110100100001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1310929,
+			"name" : "1-(4-chlorophenyl)4,4-dimethyl-3-pentanone",
+			"eventid" : 590,
+			"score" : 9501,
+			"filterVal" : "110001010100100100001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 998985,
+			"name" : "1-Benzylpiperidine-4-Carbaldehyde",
+			"eventid" : 590,
+			"score" : 9500,
+			"filterVal" : "110100100001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 997293,
+			"name" : "1-Bromo-3-Iodobenzene",
+			"eventid" : 590,
+			"score" : 9499,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299250,
+			"name" : "1-Bromo-3-Phenoxypropane",
+			"eventid" : 590,
+			"score" : 9498,
+			"filterVal" : "111000001101000100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 997163,
+			"name" : "1-Bromo-3-Phenyl Propane",
+			"eventid" : 590,
+			"score" : 9497,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 144819,
+			"name" : "1-methyl-1,2,3,4-tetrazole",
+			"eventid" : 590,
+			"score" : 9496,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 555658,
+			"name" : "[138401-24-8]",
+			"eventid" : 590,
+			"score" : 9495,
+			"filterVal" : "011001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 521542,
+			"name" : "(1R,2R)-1,2-Diaminocyclohexane",
+			"eventid" : 590,
+			"score" : 9494,
+			"filterVal" : "110000001100010010000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 521544,
+			"name" : "(1R,2R)-1,2-Diaminocyclohexane L-tartrate",
+			"eventid" : 590,
+			"score" : 9493,
+			"filterVal" : "110000001100010010000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 67186,
+			"name" : "2,4-dichloro benzyl chloride",
+			"eventid" : 590,
+			"score" : 9492,
+			"filterVal" : "111001000100101100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 67190,
+			"name" : "2,4-dichloro-5-sulphonylaminobenzoicacid98.5%min",
+			"eventid" : 590,
+			"score" : 9491,
+			"filterVal" : "111001000100101100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005661,
+			"name" : "2,4-Difluorobenzylamine",
+			"eventid" : 590,
+			"score" : 9490,
+			"filterVal" : "110000001010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 87384,
+			"name" : "2,5-Xylidine",
+			"eventid" : 590,
+			"score" : 9489,
+			"filterVal" : "011000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 87388,
+			"name" : "2,6-Dimethyl-Nitrobenzene",
+			"eventid" : 590,
+			"score" : 9488,
+			"filterVal" : "011000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290016,
+			"name" : "2-[[2-[(6-Bromohexyl)oxy]ethoxy]methyl]-1,3-dichlorobenzene",
+			"eventid" : 590,
+			"score" : 9487,
+			"filterVal" : "111101011100000000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290012,
+			"name" : "2-[(2-Ethoxyphenoxy)methyl]oxirane",
+			"eventid" : 590,
+			"score" : 9486,
+			"filterVal" : "111101011100000000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 78340,
+			"name" : "2-chloro-5-nitroaniline",
+			"eventid" : 590,
+			"score" : 9485,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 237752,
+			"name" : "(2-chlorophenyl)(4-chlorophenyl)(pyrimidin-5-yl)methanol",
+			"eventid" : 590,
+			"score" : 9484,
+			"filterVal" : "110100000000100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 238587,
+			"name" : "(2-chlorophenyl)(4-chlorophenyl)(pyrimidin- 5-yl)methanol",
+			"eventid" : 590,
+			"score" : 9483,
+			"filterVal" : "110100000000100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 78341,
+			"name" : "2-cyano-4-nitroaniline",
+			"eventid" : 590,
+			"score" : 9482,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 62080,
+			"name" : "2-thiophen-2-yl-ethylamine",
+			"eventid" : 590,
+			"score" : 9481,
+			"filterVal" : "100100000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187795,
+			"name" : "(2rs)-3-(10,11-dihydro-5h-dibenzo[b,f]azepin-5-yl)-n,2-dimethylpropan-1-amine hydrochloride",
+			"eventid" : 590,
+			"score" : 9480,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 240388,
+			"name" : "(2rs)-3-(10,11-dihydro-5h-dibenzo[b,f]azepin-5-yl)-n,n',-trimethylpropan-1-amine-n-oxide",
+			"eventid" : 590,
+			"score" : 9479,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 700728,
+			"name" : "(2S,3R)-2-hydroxy-3-(naphthalen-2-ylmethyl)succinic acid1",
+			"eventid" : 590,
+			"score" : 9478,
+			"filterVal" : "110100010100000010001000010010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 700726,
+			"name" : "(2S,3S,4S,5R,6R)-6-bromotetrahydro-2H-pyran-2,3,4,5-tetrayl tetraacetate",
+			"eventid" : 590,
+			"score" : 9477,
+			"filterVal" : "110100010100000010001000010010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299542,
+			"name" : "(2s, 3s, 5s)-2-(2,6-Dimethylphenoxyacetyl)Amino-3-Hydroxy-5-Amino-1",
+			"eventid" : 590,
+			"score" : 9476,
+			"filterVal" : "111000000001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299541,
+			"name" : "(2s,3s,5s)-2-Amino-3-Hydroxy-5-Tert Butylcarbonyl Amino-1,6- Diphenyl-Hexane",
+			"eventid" : 590,
+			"score" : 9475,
+			"filterVal" : "111000000001000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 98921,
+			"name" : "2'-Nitroacetophenone",
+			"eventid" : 590,
+			"score" : 9474,
+			"filterVal" : "110000000100100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 98920,
+			"name" : "3,5-Bis(2-cyanoprop-2-yl)toluene",
+			"eventid" : 590,
+			"score" : 9473,
+			"filterVal" : "110000000100100100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299108,
+			"name" : "4-CHLORO BUTYRYL  CHLORIDE",
+			"eventid" : 590,
+			"score" : 9472,
+			"filterVal" : "010000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005663,
+			"name" : "4-Fluoroaniline",
+			"eventid" : 590,
+			"score" : 9471,
+			"filterVal" : "110000001010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 62079,
+			"name" : "5-fluoro cytosine",
+			"eventid" : 590,
+			"score" : 9470,
+			"filterVal" : "100100000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 579050,
+			"name" : "7-ANCA for Ceftizoxime and Ceftibuten",
+			"eventid" : 590,
+			"score" : 9469,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 579051,
+			"name" : "7-DMT for Cefotiam",
+			"eventid" : 590,
+			"score" : 9468,
+			"filterVal" : "001000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 464518,
+			"name" : "A to Z gold ns soft gelatin caps (15s)",
+			"eventid" : 590,
+			"score" : 9467,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 464519,
+			"name" : "A to Z ns drops 15ml",
+			"eventid" : 590,
+			"score" : 9466,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 568669,
+			"name" : "Abacavir Sulfate + Lamivudine + Zidovudine",
+			"eventid" : 590,
+			"score" : 9465,
+			"filterVal" : "100001100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 568295,
+			"name" : "Abacavir Sulphate",
+			"eventid" : 590,
+			"score" : 9464,
+			"filterVal" : "100001100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 556586,
+			"name" : "ACTIBLOK AM",
+			"eventid" : 590,
+			"score" : 9463,
+			"filterVal" : "100000100000100000100000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 564257,
+			"name" : "Adenosine 5'-monophosphate, disodium salt (5'-AMP, 2Na)",
+			"eventid" : 590,
+			"score" : 9462,
+			"filterVal" : "110000100001100100001000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 564258,
+			"name" : "Adenosine 5'-monophosphate, free acid (5'-AMP, free)",
+			"eventid" : 590,
+			"score" : 9461,
+			"filterVal" : "110000100001100100001000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 99059,
+			"name" : "Alfacalcidol Soft Gels 0.50 mcg",
+			"eventid" : 590,
+			"score" : 9460,
+			"filterVal" : "100001010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 99060,
+			"name" : "Alfacalcidol Soft Gels 1 mcg",
+			"eventid" : 590,
+			"score" : 9459,
+			"filterVal" : "100001010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 465289,
+			"name" : "Angelica peony extract Chi-ryo",
+			"eventid" : 590,
+			"score" : 9458,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 558243,
+			"name" : "Antara",
+			"eventid" : 590,
+			"score" : 9457,
+			"filterVal" : "100001000010101000010000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 558256,
+			"name" : "Antara",
+			"eventid" : 590,
+			"score" : 9456,
+			"filterVal" : "100001000010101000010000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1004639,
+			"name" : "Antibody Drug Conjugates",
+			"eventid" : 590,
+			"score" : 9455,
+			"filterVal" : "100100110000000010100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1267566,
+			"name" : "Apixaban",
+			"eventid" : 590,
+			"score" : 9454,
+			"filterVal" : "100010000000000001000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1267567,
+			"name" : "Apremilast",
+			"eventid" : 590,
+			"score" : 9453,
+			"filterVal" : "100010000000000001000000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 594376,
+			"name" : "Beclometasone Dipropionate",
+			"eventid" : 590,
+			"score" : 9452,
+			"filterVal" : "101000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299389,
+			"name" : "Beneday(B1/B6/B12/Thioctic acid) enteric coated tablet",
+			"eventid" : 590,
+			"score" : 9451,
+			"filterVal" : "100001010010000000000010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 594377,
+			"name" : "Betamethasone",
+			"eventid" : 590,
+			"score" : 9450,
+			"filterVal" : "101000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 553422,
+			"name" : "Betamethasone Acetate",
+			"eventid" : 590,
+			"score" : 9449,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 553421,
+			"name" : "Betamethasone Dipropionate",
+			"eventid" : 590,
+			"score" : 9448,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306737,
+			"name" : "BloomseaN™ PN / Polynucleotide (Pharmaceutical Grade)",
+			"eventid" : 590,
+			"score" : 9447,
+			"filterVal" : "001010100000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306738,
+			"name" : "BloomStem™ DMEM Medium & RPMI Medium 1640",
+			"eventid" : 590,
+			"score" : 9446,
+			"filterVal" : "001010100000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 599338,
+			"name" : "Bupropion hydrochloride",
+			"eventid" : 590,
+			"score" : 9445,
+			"filterVal" : "101110000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 23646,
+			"name" : "Buspirone HCI",
+			"eventid" : 590,
+			"score" : 9444,
+			"filterVal" : "101100000000000000001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1235677,
+			"name" : "Butalbital",
+			"eventid" : 590,
+			"score" : 9443,
+			"filterVal" : "110100001000110010000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 576839,
+			"name" : "Candesartan cilexetil",
+			"eventid" : 590,
+			"score" : 9442,
+			"filterVal" : "011000001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 23647,
+			"name" : "CARBIDOPA",
+			"eventid" : 590,
+			"score" : 9441,
+			"filterVal" : "101100000000000000001000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1276915,
+			"name" : "Caspofungin Acetate",
+			"eventid" : 590,
+			"score" : 9440,
+			"filterVal" : "011011001010000001000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1306158,
+			"name" : "Cefaclor Capsule 250mg / 500mg",
+			"eventid" : 590,
+			"score" : 9439,
+			"filterVal" : "100011110010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 576862,
+			"name" : "Celecoxib",
+			"eventid" : 590,
+			"score" : 9438,
+			"filterVal" : "011000001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 599328,
+			"name" : "Cetrizine Di hydrochloride",
+			"eventid" : 590,
+			"score" : 9437,
+			"filterVal" : "101110000000000000000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1235678,
+			"name" : "Cetylpyridinium Bromide",
+			"eventid" : 590,
+			"score" : 9436,
+			"filterVal" : "110100001000110010000000010000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 987538,
+			"name" : "Ciclopirox Olamine",
+			"eventid" : 590,
+			"score" : 9435,
+			"filterVal" : "100100100101100000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 987539,
+			"name" : "Ciprofibrate",
+			"eventid" : 590,
+			"score" : 9434,
+			"filterVal" : "100100100101100000000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 992902,
+			"name" : "CMC Regulatory Services",
+			"eventid" : 590,
+			"score" : 9433,
+			"filterVal" : "100100100000000000100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296632,
+			"name" : "CUSTOMS SYNTHESIS OF PEPTIDES",
+			"eventid" : 590,
+			"score" : 9432,
+			"filterVal" : "100110110100000010000000010001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313665,
+			"name" : "Cyanation",
+			"eventid" : 590,
+			"score" : 9431,
+			"filterVal" : "110000001110010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 510894,
+			"name" : "Dehydrocholic Acid",
+			"eventid" : 590,
+			"score" : 9430,
+			"filterVal" : "111011010000010001000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 599597,
+			"name" : "Deloday syrup and deloday(desloratadine) film tablet",
+			"eventid" : 590,
+			"score" : 9429,
+			"filterVal" : "100001010010000000000010000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 510895,
+			"name" : "Deoxycholic Acid",
+			"eventid" : 590,
+			"score" : 9428,
+			"filterVal" : "111011010000010001000000100000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005356,
+			"name" : "Duloxetine HCl",
+			"eventid" : 590,
+			"score" : 9427,
+			"filterVal" : "100010000000000001000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288389,
+			"name" : "Eltrombopag",
+			"eventid" : 590,
+			"score" : 9426,
+			"filterVal" : "100100100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 972248,
+			"name" : "Enzalutamide",
+			"eventid" : 590,
+			"score" : 9425,
+			"filterVal" : "100110100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1307615,
+			"name" : "Epoprostenol",
+			"eventid" : 590,
+			"score" : 9424,
+			"filterVal" : "100000100001000000000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1005357,
+			"name" : "Esomeprazole Mg",
+			"eventid" : 590,
+			"score" : 9423,
+			"filterVal" : "100010000000000001000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187622,
+			"name" : "Esomeprazole Pellets",
+			"eventid" : 590,
+			"score" : 9422,
+			"filterVal" : "111010001110110001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297919,
+			"name" : "Everolimus",
+			"eventid" : 590,
+			"score" : 9421,
+			"filterVal" : "011011001010000001000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1307614,
+			"name" : "Fexofenadine HCl",
+			"eventid" : 590,
+			"score" : 9420,
+			"filterVal" : "100000100001000000000000001000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1313664,
+			"name" : "Fluorination (HF & KF)",
+			"eventid" : 590,
+			"score" : 9419,
+			"filterVal" : "110000001110010100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 86870,
+			"name" : "Fluoxetine",
+			"eventid" : 590,
+			"score" : 9418,
+			"filterVal" : "001000000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 600099,
+			"name" : "Fu come and (repaglinide metformin)",
+			"eventid" : 590,
+			"score" : 9417,
+			"filterVal" : "000001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 600100,
+			"name" : "Fu to di (repaglinide)",
+			"eventid" : 590,
+			"score" : 9416,
+			"filterVal" : "000001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292707,
+			"name" : "Furfural",
+			"eventid" : 590,
+			"score" : 9415,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 86857,
+			"name" : "Gliclazide",
+			"eventid" : 590,
+			"score" : 9414,
+			"filterVal" : "001000000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101209,
+			"name" : "Glycopyrrolate",
+			"eventid" : 590,
+			"score" : 9413,
+			"filterVal" : "001001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 538087,
+			"name" : "Immobilised enzymes and immobilization services",
+			"eventid" : 590,
+			"score" : 9412,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 956019,
+			"name" : "Isoniazid",
+			"eventid" : 590,
+			"score" : 9411,
+			"filterVal" : "111100010000000100000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 583829,
+			"name" : "Lamivudine",
+			"eventid" : 590,
+			"score" : 9410,
+			"filterVal" : "010001000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1287067,
+			"name" : "Levo Salbutamol Sulfate",
+			"eventid" : 590,
+			"score" : 9409,
+			"filterVal" : "001001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 187620,
+			"name" : "Lithium HMDS",
+			"eventid" : 590,
+			"score" : 9408,
+			"filterVal" : "111010001110110001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1296110,
+			"name" : "Lithium salts",
+			"eventid" : 590,
+			"score" : 9407,
+			"filterVal" : "111000001101000100000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291441,
+			"name" : "Macitentan Tab.",
+			"eventid" : 590,
+			"score" : 9406,
+			"filterVal" : "000001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1291444,
+			"name" : "Mirabegron ER Tab.",
+			"eventid" : 590,
+			"score" : 9405,
+			"filterVal" : "000001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 474205,
+			"name" : "Neusilin®",
+			"eventid" : 590,
+			"score" : 9404,
+			"filterVal" : "100100010000100010000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1004638,
+			"name" : "Oligonucleotide Synthesis",
+			"eventid" : 590,
+			"score" : 9403,
+			"filterVal" : "100100110000000010100000000010",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1280065,
+			"name" : "Omega Pen",
+			"eventid" : 590,
+			"score" : 9402,
+			"filterVal" : "000000000000000000000011000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1301405,
+			"name" : "Oral technologies (softgel capsules)",
+			"eventid" : 590,
+			"score" : 9401,
+			"filterVal" : "100001100000000000000001000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297915,
+			"name" : "Orlistat",
+			"eventid" : 590,
+			"score" : 9400,
+			"filterVal" : "000000000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 468987,
+			"name" : "PC (polycarbonate)- Wonderlite&#153;",
+			"eventid" : 590,
+			"score" : 9399,
+			"filterVal" : "100000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 468974,
+			"name" : "PE (polyethylene) - Suntec&#153;",
+			"eventid" : 590,
+			"score" : 9398,
+			"filterVal" : "100000000000100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 566198,
+			"name" : "Pharmaceutical Chem. Support",
+			"eventid" : 590,
+			"score" : 9397,
+			"filterVal" : "100000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1312124,
+			"name" : "Piracetam CEP/EP",
+			"eventid" : 590,
+			"score" : 9396,
+			"filterVal" : "110100001000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 538086,
+			"name" : "Polymeric spherical beads",
+			"eventid" : 590,
+			"score" : 9395,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304692,
+			"name" : "Potassium Iodide",
+			"eventid" : 590,
+			"score" : 9394,
+			"filterVal" : "011000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 566194,
+			"name" : "Process R&D",
+			"eventid" : 590,
+			"score" : 9393,
+			"filterVal" : "100000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1252039,
+			"name" : "( R)-(3-(3-Fluoro-4-morpholinophenyl)-2-oxo-5-oxazolidinyl)methylmethane sulfonate",
+			"eventid" : 590,
+			"score" : 9392,
+			"filterVal" : "110111001000010000000000110000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 956047,
+			"name" : "(R)-3-Quinuclidinol",
+			"eventid" : 590,
+			"score" : 9391,
+			"filterVal" : "111100010000000100000000000001",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 972249,
+			"name" : "Regorafenib",
+			"eventid" : 590,
+			"score" : 9390,
+			"filterVal" : "100110100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1008037,
+			"name" : "Relugolix",
+			"eventid" : 590,
+			"score" : 9389,
+			"filterVal" : "101111010100100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1287066,
+			"name" : "Salbutamol Sulphate",
+			"eventid" : 590,
+			"score" : 9388,
+			"filterVal" : "001001000010000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1288392,
+			"name" : "Saxagliptin",
+			"eventid" : 590,
+			"score" : 9387,
+			"filterVal" : "100100100000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1008036,
+			"name" : "Semaglutide",
+			"eventid" : 590,
+			"score" : 9386,
+			"filterVal" : "101111010100100000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1297914,
+			"name" : "Semaglutide",
+			"eventid" : 590,
+			"score" : 9385,
+			"filterVal" : "000000000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299144,
+			"name" : "Small molecule API development",
+			"eventid" : 590,
+			"score" : 9384,
+			"filterVal" : "100100010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299143,
+			"name" : "Small molecule API manufacturing",
+			"eventid" : 590,
+			"score" : 9383,
+			"filterVal" : "100100010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1299260,
+			"name" : "Sodium Hyaluronate Injection (20mg/1mL ; 25mg/2.5mL ; 60mg/3mL)",
+			"eventid" : 590,
+			"score" : 9382,
+			"filterVal" : "100011110010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 182106,
+			"name" : "Stand bag formulation",
+			"eventid" : 590,
+			"score" : 9381,
+			"filterVal" : "100000010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 182128,
+			"name" : "Sustained release capsules",
+			"eventid" : 590,
+			"score" : 9380,
+			"filterVal" : "100000010000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 101200,
+			"name" : "Tamsulosin/ Silodosin",
+			"eventid" : 590,
+			"score" : 9379,
+			"filterVal" : "001001000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1254082,
+			"name" : "Tenofovir Alafenamide Fumarate（TAF）",
+			"eventid" : 590,
+			"score" : 9378,
+			"filterVal" : "010001000010000000000000000100",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1292706,
+			"name" : "TERT-BUTYLISOCYANATE",
+			"eventid" : 590,
+			"score" : 9377,
+			"filterVal" : "010000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1290966,
+			"name" : "Trastuzumab",
+			"eventid" : 590,
+			"score" : 9376,
+			"filterVal" : "100000100000100000100000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1304695,
+			"name" : "Trimethylsulfoxonium Iodide",
+			"eventid" : 590,
+			"score" : 9375,
+			"filterVal" : "011000000000010000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 1032040,
+			"name" : "Update information of Japanese generic API market",
+			"eventid" : 590,
+			"score" : 9374,
+			"filterVal" : "000010100000000001000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 60879,
+			"name" : "Various Pharmaceutical Registrations",
+			"eventid" : 590,
+			"score" : 9373,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		},
+		{
+			"type" : "product",
+			"id" : 465306,
+			"name" : "<Well> Yi hot water extract",
+			"eventid" : 590,
+			"score" : 9372,
+			"filterVal" : "000000000000000000000000000000",
+			"details" : ""
+		}
+	]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
