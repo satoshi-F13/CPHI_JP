@@ -1,0 +1,323 @@
+
+
+# 1st page
+```{r}
+library(ggplot2)
+library(showtext)
+library(magick)
+
+# Add Google Font
+font_add_google("Alata", "alata")
+font_add_google("Noto Sans", "noto_sans")
+showtext_auto()
+
+# Colors from your palette
+bg_color <- "#E3EBF3" # awanokuni
+accent1 <- "#375A9D" # noren
+accent2 <- "#CB6874" # gochiso
+text_dark <- "#323172" # gosuiro
+text_light <- "#7093BF" # samue
+grid_color <- "#D3D3D2" # ginhakushoku
+
+p1 <- ggplot() +
+  # Background
+  annotate("rect", xmin = 0, xmax = 1, ymin = 0, ymax = 1, fill = bg_color) +
+  # Decorative top bar
+  annotate("rect", xmin = 0, xmax = 1, ymin = 0.88, ymax = 1, fill = accent1) +
+
+  # Side accent line
+  annotate(
+    "rect",
+    xmin = 0,
+    xmax = 0.012,
+    ymin = 0.04,
+    ymax = 0.88,
+    fill = text_light,
+    alpha = 0.4
+  ) +
+
+  # Main question
+  annotate(
+    "text",
+    x = 0.08, # ← start position near left edge
+    y = 0.52,
+    label = "Who shows up \nat CPHI Japan 2026?",
+    color = accent2,
+    size = 24,
+    fontface = "bold",
+    family = "alata",
+    hjust = 0, # left: 0, center: 0.5, right:1
+    lineheight = 1
+  ) +
+  coord_cartesian(xlim = c(0, 1), ylim = c(0, 1), expand = FALSE) +
+  theme_void() +
+  theme(
+    plot.margin = margin(0, 0, 0, 0)
+  )
+p1
+ggsave(
+  "assets/slide1_question.png",
+  plot = p1,
+  width = 1080,
+  height = 1080,
+  units = "px",
+  dpi = 96,
+  bg = bg_color
+)
+
+```
+
+```{r}
+plot_img <- image_read("assets/slide1_question.png")
+# Step 3: Get dimensions
+plot_info <- image_info(plot_img)
+plot_width <- plot_info$width # 1080
+plot_height <- plot_info$height # 1080
+
+# ADD LOGO
+
+# Step 5: Add logo
+logo_img <- image_read("logos/wide/satom-wide-color.png")
+logo_target_width <- round(plot_width * 0.15)
+logo_img <- image_scale(logo_img, as.character(logo_target_width))
+
+logo_info <- image_info(logo_img)
+logo_width <- logo_info$width
+logo_height <- logo_info$height
+
+# Position of a logo
+margin_right <- 30
+margin_bottom <- 30
+
+x_offset <- plot_width - logo_width - margin_right
+y_offset <- plot_height - logo_height - margin_bottom
+
+# Composite logo onto annotated plot
+final_img <- image_composite(
+  plot_img,
+  logo_img,
+  offset = paste0("+", x_offset, "+", y_offset)
+)
+print(final_img)
+
+# Step 6: Save final image
+image_write(
+  final_img,
+  "assets/slide1_question_logo.png",
+  quality = 100
+)
+
+# Step 7: Display result
+print(final_img)
+
+```
+
+
+# 2nd page
+
+```{r}
+library(ggplot2)
+library(showtext)
+
+font_add_google("Alata", "alata")
+font_add_google("Noto Sans", "noto_sans")
+showtext_auto()
+
+text_muted <- "#323172" # gosuiro  — dark navy for contrast
+panel_bg <- "#375A9D" # noren
+accent_red <- "#CB6874" # gochiso
+accent_grn <- "#97CEA1" # urahairo
+text_white <- "#E9EAEB" # hakujiiro
+border_col <- "#7093BF" # samue
+bg_color <- "#E3EBF3" # awanokuni
+
+# Data for stat boxes
+stats <- data.frame(
+  x = c(0.22, 0.50, 0.78),
+  y = rep(0.30, 3),
+  value = c("500+", "3", "30+"),
+  label = c(
+    "Unique\nExhibitor Entries",
+    "Show\nSegments",
+    "Countries\nRepresented"
+  ),
+  color = c(accent_red, accent_grn, text_muted)
+)
+
+p2 <- ggplot() +
+  # Main background
+  annotate("rect", xmin = 0, xmax = 1, ymin = 0, ymax = 1, fill = bg_color) +
+  # Top accent strip
+  annotate(
+    "rect",
+    xmin = 0,
+    xmax = 1,
+    ymin = 0.90,
+    ymax = 1,
+    fill = accent_red
+  ) +
+  # Bottom strip
+  annotate(
+    "rect",
+    xmin = 0,
+    xmax = 1,
+    ymin = 0,
+    ymax = 0.1,
+    fill = border_col
+  ) +
+  # Top label
+  annotate(
+    "text",
+    x = 0.5,
+    y = 0.945,
+    label = "WHAT IS CPHI JAPAN?",
+    color = "white",
+    size = 16,
+    fontface = "bold",
+    family = "noto_sans",
+    hjust = 0.5
+  ) +
+  # Title
+  annotate(
+    "text",
+    x = 0.08,
+    y = 0.78,
+    label = "Asia's Premier Pharma Ingredients Trade Show",
+    color = text_muted,
+    size = 14,
+    fontface = "bold",
+    family = "alata",
+    hjust = 0,
+    lineheight = 1.15
+  ) +
+  # Divider line
+  annotate(
+    "segment",
+    x = 0.05,
+    xend = 0.95,
+    y = 0.7,
+    yend = 0.7,
+    color = border_col,
+    linewidth = 0.4,
+    alpha = 0.4
+  ) +
+  # Description text
+  annotate(
+    "text",
+    x = 0.08,
+    y = 0.545,
+    label = "CPHI Japan brings together global suppliers of pharmaceutical ingredients, \noutsourcing services, and bio-pharma solutions — all under one roof in Tokyo.",
+    color = text_muted,
+    size = 9,
+    family = "noto_sans",
+    hjust = 0,
+    lineheight = 1
+  ) +
+  # Stat boxes (background panels)
+  annotate(
+    "rect",
+    xmin = stats$x - 0.13,
+    xmax = stats$x + 0.13,
+    ymin = stats$y - 0.10,
+    ymax = stats$y + 0.10,
+    fill = panel_bg,
+    alpha = 0.5
+  ) +
+  # Stat values
+  annotate(
+    "text",
+    x = stats$x,
+    y = stats$y + 0.045,
+    label = stats$value,
+    color = stats$color,
+    size = 20,
+    fontface = "bold",
+    family = "alata",
+    hjust = 0.5
+  ) +
+  # Stat labels
+  annotate(
+    "text",
+    x = stats$x,
+    y = stats$y - 0.045,
+    label = stats$label,
+    color = text_muted,
+    size = 8,
+    family = "noto_sans",
+    hjust = 0.5,
+    lineheight = 1.2
+  ) +
+  # Segments strip label
+  annotate(
+    "text",
+    x = 0.5,
+    y = 0.135,
+    label = "Ingredients  ·  Outsourcing  ·  Bio Pharma",
+    color = text_muted,
+    size = 9,
+    family = "noto_sans",
+    hjust = 0.5
+  ) +
+
+  coord_fixed(xlim = c(0, 1), ylim = c(0, 1), expand = FALSE) +
+  theme_void()
+
+p2
+
+
+ggsave(
+  "assets/slide2_explanation.png",
+  plot = p2,
+  width = 1080,
+  height = 1080,
+  units = "px",
+  dpi = 96,
+  bg = bg_color
+)
+```
+
+
+```{r}
+plot_img <- image_read("assets/slide2_explanation.png")
+# Step 3: Get dimensions
+plot_info <- image_info(plot_img)
+plot_width <- plot_info$width # 1080
+plot_height <- plot_info$height # 1080
+
+# ADD LOGO
+
+# Step 5: Add logo
+logo_img <- image_read("logos/wide/satom-wide-color.png")
+logo_target_width <- round(plot_width * 0.15)
+logo_img <- image_scale(logo_img, as.character(logo_target_width))
+
+logo_info <- image_info(logo_img)
+logo_width <- logo_info$width
+logo_height <- logo_info$height
+
+# Position of a logo
+margin_right <- 30
+margin_bottom <- 30
+
+x_offset <- plot_width - logo_width - margin_right
+y_offset <- plot_height - logo_height - margin_bottom
+
+# Composite logo onto annotated plot
+final_img <- image_composite(
+  plot_img,
+  logo_img,
+  offset = paste0("+", x_offset, "+", y_offset)
+)
+print(final_img)
+
+# Step 6: Save final image
+image_write(
+  final_img,
+  "assets/slide2_explanation.png",
+  quality = 100
+)
+
+# Step 7: Display result
+print(final_img)
+
+```

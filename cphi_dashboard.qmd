@@ -47,7 +47,11 @@ exhibitors <- read_csv("data/exhibitors_cphijp2026.csv")
 # Data preparation
 exhibitors_clean <- exhibitors %>%
   mutate(
-    show_type = if_else(is.na(show_type) | show_type == "", "Not Specified", show_type),
+    show_type = if_else(
+      is.na(show_type) | show_type == "",
+      "Not Specified",
+      show_type
+    ),
     country = if_else(is.na(country) | country == "", "Not Specified", country)
   )
 
@@ -55,12 +59,14 @@ exhibitors_clean <- exhibitors %>%
 total_exhibitors <- nrow(exhibitors_clean)
 total_countries <- n_distinct(exhibitors_clean$country)
 total_show_types <- n_distinct(exhibitors_clean$show_type)
-total_products <- n_distinct(exhibitors_clean$product_name[!is.na(exhibitors_clean$product_name)])
+total_products <- n_distinct(exhibitors_clean$product_name[
+  !is.na(exhibitors_clean$product_name)
+])
 ```
 
 # Overview
 
-## Row {height="25%"}
+## Row {height="20%"}
 
 ```{r}
 #| content: valuebox
@@ -102,7 +108,7 @@ list(
 )
 ```
 
-## Row {height="75%"}
+## Row {height="80%"}
 
 ### Column {width="60%"}
 
@@ -116,8 +122,11 @@ country_data <- exhibitors_clean %>%
   mutate(
     country = fct_reorder(country, n),
     tooltip = paste0(
-      "<b>", country, "</b><br>",
-      "Exhibitors: ", n
+      "<b>",
+      country,
+      "</b><br>",
+      "Exhibitors: ",
+      n
     )
   )
 
@@ -173,9 +182,15 @@ show_type_data <- exhibitors_clean %>%
     percentage = n / sum(n) * 100,
     label = paste0(show_type, "\n", n, " (", round(percentage, 1), "%)"),
     tooltip = paste0(
-      "<b>", show_type, "</b><br>",
-      "Count: ", n, "<br>",
-      "Percentage: ", round(percentage, 1), "%"
+      "<b>",
+      show_type,
+      "</b><br>",
+      "Count: ",
+      n,
+      "<br>",
+      "Percentage: ",
+      round(percentage, 1),
+      "%"
     )
   )
 
@@ -225,13 +240,18 @@ country_show_data <- exhibitors_clean %>%
   group_by(country) %>%
   mutate(total = sum(n)) %>%
   ungroup() %>%
-  filter(total >= 5) %>%  # Only show countries with 5+ exhibitors
+  filter(total >= 5) %>% # Only show countries with 5+ exhibitors
   mutate(
     country = fct_reorder(country, total),
     tooltip = paste0(
-      "<b>", country, "</b><br>",
-      "Show Type: ", show_type, "<br>",
-      "Exhibitors: ", n
+      "<b>",
+      country,
+      "</b><br>",
+      "Show Type: ",
+      show_type,
+      "<br>",
+      "Exhibitors: ",
+      n
     )
   )
 
@@ -324,9 +344,14 @@ show_country_data <- exhibitors_clean %>%
   count(show_type, country) %>%
   mutate(
     tooltip = paste0(
-      "<b>", show_type, "</b><br>",
-      "Country: ", country, "<br>",
-      "Count: ", n
+      "<b>",
+      show_type,
+      "</b><br>",
+      "Country: ",
+      country,
+      "<br>",
+      "Count: ",
+      n
     )
   )
 

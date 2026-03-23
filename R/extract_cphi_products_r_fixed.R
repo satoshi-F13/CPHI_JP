@@ -14,7 +14,7 @@ library(stringr)
 library(dplyr)
 
 # Read the PDF file
-pdf_path <- "/mnt/user-data/uploads/CPHI_Japan_2026_ProductList.pdf"
+pdf_path <- "/CPHI_Japan_2026_ProductList.pdf"
 pdf_text <- pdf_text(pdf_path)
 
 # Combine all pages into one text
@@ -38,23 +38,61 @@ products_df <- data.frame(
 booth_pattern <- "\\b(\\d+[A-Z]+-\\d+)\\b"
 
 # Valid 2-letter country codes
-valid_country_codes <- c("CN", "IN", "JP", "US", "GB", "DE", "FR", "IT", "KR", 
-                         "TW", "CH", "PT", "ES", "NL", "BE", "AT", "SE", "HU", 
-                         "FI", "RO", "TR", "TH", "HK")
+valid_country_codes <- c(
+  "CN",
+  "IN",
+  "JP",
+  "US",
+  "GB",
+  "DE",
+  "FR",
+  "IT",
+  "KR",
+  "TW",
+  "CH",
+  "PT",
+  "ES",
+  "NL",
+  "BE",
+  "AT",
+  "SE",
+  "HU",
+  "FI",
+  "RO",
+  "TR",
+  "TH",
+  "HK"
+)
 
 # Skip patterns
-skip_patterns <- c("Featured products", "CPHI", "EXHIBIT", "REGISTER NOW",
-                   "Click the flag", "Product\\(s\\) found", "21 Apr 2026",
-                   "East Halls", "Tokyo Big Sight", "See all upcoming",
-                   "See digital marketing", "Home", "Contact us", "Follow us",
-                   "Copyright", "Informa Markets", "Accessibility", "Privacy Policy",
-                   "Terms of Use", "Visitor Terms")
+skip_patterns <- c(
+  "Featured products",
+  "CPHI",
+  "EXHIBIT",
+  "REGISTER NOW",
+  "Click the flag",
+  "Product\\(s\\) found",
+  "21 Apr 2026",
+  "East Halls",
+  "Tokyo Big Sight",
+  "See all upcoming",
+  "See digital marketing",
+  "Home",
+  "Contact us",
+  "Follow us",
+  "Copyright",
+  "Informa Markets",
+  "Accessibility",
+  "Privacy Policy",
+  "Terms of Use",
+  "Visitor Terms"
+)
 
 # Extract products
 i <- 1
 while (i <= length(lines) - 2) {
   current_line <- lines[i]
-  
+
   # Skip unwanted lines
   should_skip <- FALSE
   for (pattern in skip_patterns) {
@@ -63,18 +101,18 @@ while (i <= length(lines) - 2) {
       break
     }
   }
-  
+
   if (should_skip) {
     i <- i + 1
     next
   }
-  
+
   # Check if next line contains booth + country pattern
   next_line <- lines[i + 1]
-  
+
   # Extract booth from next line (ensure proper format)
   booth_match <- str_extract(next_line, booth_pattern)
-  
+
   # Extract country code (must be exactly 2 letters and in valid list)
   country <- NA
   country_matches <- str_extract_all(next_line, "\\b[A-Z]{2}\\b")[[1]]
@@ -84,33 +122,33 @@ while (i <= length(lines) - 2) {
       break
     }
   }
-  
+
   # If we found both booth and country in the next line,
   # current line is product name and we need to collect company name
   if (!is.na(booth_match) && !is.na(country) && i + 2 <= length(lines)) {
     product_name <- current_line
-    
+
     # Collect company name (may span multiple lines)
     company_lines <- c()
     j <- i + 2
-    
+
     while (j <= length(lines) && length(company_lines) < 3) {
       line <- lines[j]
-      
+
       # Check if this line is followed by a booth+country line
       if (j + 1 <= length(lines)) {
         next_check <- lines[j + 1]
         has_booth <- !is.na(str_extract(next_check, booth_pattern))
-        
+
         country_check <- str_extract_all(next_check, "\\b[A-Z]{2}\\b")[[1]]
         has_country <- any(country_check %in% valid_country_codes)
-        
+
         if (has_booth && has_country) {
           # This is the start of the next product
           break
         }
       }
-      
+
       # Skip if it's a skip pattern
       skip_this <- FALSE
       for (pattern in skip_patterns) {
@@ -119,8 +157,10 @@ while (i <= length(lines) - 2) {
           break
         }
       }
-      if (skip_this) break
-      
+      if (skip_this) {
+        break
+      }
+
       # Skip if line looks like booth+country
       line_booth <- str_extract(line, booth_pattern)
       line_countries <- str_extract_all(line, "\\b[A-Z]{2}\\b")[[1]]
@@ -128,25 +168,28 @@ while (i <= length(lines) - 2) {
       if (!is.na(line_booth) && line_has_country) {
         break
       }
-      
+
       company_lines <- c(company_lines, line)
       j <- j + 1
     }
-    
+
     # Join company name parts
     company_name <- paste(company_lines, collapse = " ")
     company_name <- str_trim(company_name)
-    
+
     # Add to dataframe if company name is valid
     if (nchar(company_name) > 0 && !grepl("^\\d", company_name)) {
-      products_df <- rbind(products_df, data.frame(
-        Product_Name = product_name,
-        Company_Name = company_name,
-        Booth_Info = booth_match,
-        Country = country,
-        stringsAsFactors = FALSE
-      ))
-      i <- j  # Move to position after company name
+      products_df <- rbind(
+        products_df,
+        data.frame(
+          Product_Name = product_name,
+          Company_Name = company_name,
+          Booth_Info = booth_match,
+          Country = country,
+          stringsAsFactors = FALSE
+        )
+      )
+      i <- j # Move to position after company name
     } else {
       i <- i + 1
     }
@@ -178,5 +221,8 @@ print(booth_samples)
 
 # Show sample company names with Ltd/Inc/Co
 cat("\nSample company names with Ltd/Inc/Co:\n")
-ltd_companies <- products_df$Company_Name[grepl("Ltd|Inc|Co\\.", products_df$Company_Name)]
+ltd_companies <- products_df$Company_Name[grepl(
+  "Ltd|Inc|Co\\.",
+  products_df$Company_Name
+)]
 print(head(ltd_companies, 10))

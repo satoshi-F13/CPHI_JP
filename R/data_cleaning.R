@@ -1,9 +1,18 @@
 library(tidyverse)
 
 # Read the datasets
+# Data is extracted from https://exhibitors.cphi.com/live/cphi/event46v2.jsp?site=46&type=product&eventid=590
 exhibitors <- read_csv("data/cphijp26_exhibitors.csv")
 products <- read_csv("data/cphi_japan_2026_products_fixed.csv")
 all_years <- read_csv("data/cphi_japan_all_years_combined.csv")
+
+#Check the country of company
+
+exhibitors_name <-
+  exhibitors |>
+  select(company_name)
+write_csv(exhibitors_name, file = "data/exhibitors_name.csv")
+
 # Join the datasets by company name
 # Using left_join to keep all exhibitors and add their products
 joined_data <- exhibitors %>%
@@ -168,8 +177,202 @@ result_exact <-
       TRUE ~ country # This keeps all other values unchanged
     )
   )
-# Save results
-write_csv(result_exact, "data/exhibitors_cphijp2026.csv")
+
+
+# Add region column based on country
+result_exact <-
+  result_exact %>%
+  mutate(
+    show_type = if_else(
+      is.na(show_type) | show_type == "",
+      "Not Specified",
+      show_type
+    ),
+    country = if_else(is.na(country) | country == "", "Not Specified", country)
+  ) |>
+  # Add region column based on country
+  mutate(
+    region = case_when(
+      # Asia
+      country %in%
+        c(
+          "JAPAN",
+          "CHINA",
+          "INDIA",
+          "SOUTH KOREA",
+          "TAIWAN",
+          "THAILAND",
+          "SINGAPORE",
+          "MALAYSIA",
+          "INDONESIA",
+          "PHILIPPINES",
+          "VIETNAM",
+          "HONG KONG",
+          "PAKISTAN",
+          "BANGLADESH",
+          "SRI LANKA",
+          "MYANMAR",
+          "CAMBODIA",
+          "LAOS",
+          "NEPAL",
+          "MONGOLIA",
+          "BRUNEI",
+          "MACAO"
+        ) ~ "Asia",
+
+      # North America
+      country %in% c("USA", "CANADA", "MEXICO") ~ "North America",
+
+      # Europe
+      country %in%
+        c(
+          "GERMANY",
+          "UNITED KINGDOM",
+          "FRANCE",
+          "ITALY",
+          "SPAIN",
+          "NETHERLANDS",
+          "BELGIUM",
+          "SWITZERLAND",
+          "AUSTRIA",
+          "SWEDEN",
+          "NORWAY",
+          "DENMARK",
+          "FINLAND",
+          "POLAND",
+          "IRELAND",
+          "PORTUGAL",
+          "GREECE",
+          "CZECH REPUBLIC",
+          "HUNGARY",
+          "ROMANIA",
+          "BULGARIA",
+          "CROATIA",
+          "SLOVAKIA",
+          "SLOVENIA",
+          "ESTONIA",
+          "LATVIA",
+          "LITHUANIA",
+          "LUXEMBOURG",
+          "MALTA",
+          "CYPRUS",
+          "ICELAND",
+          "SERBIA",
+          "UKRAINE",
+          "RUSSIAN FEDERATION",
+          "BELARUS",
+          "ALBANIA",
+          "BOSNIA AND HERZEGOVINA",
+          "NORTH MACEDONIA",
+          "MONTENEGRO",
+          "MOLDOVA"
+        ) ~ "Europe",
+
+      # South America
+      country %in%
+        c(
+          "BRAZIL",
+          "ARGENTINA",
+          "CHILE",
+          "COLOMBIA",
+          "PERU",
+          "VENEZUELA",
+          "ECUADOR",
+          "BOLIVIA",
+          "PARAGUAY",
+          "URUGUAY",
+          "GUYANA",
+          "SURINAME"
+        ) ~ "South America",
+
+      # Middle East
+      country %in%
+        c(
+          "ISRAEL",
+          "UAE",
+          "SAUDI ARABIA",
+          "TURKIYE",
+          "IRAN",
+          "JORDAN",
+          "LEBANON",
+          "KUWAIT",
+          "QATAR",
+          "BAHRAIN",
+          "OMAN",
+          "YEMEN",
+          "IRAQ",
+          "SYRIA",
+          "PALESTINE"
+        ) ~ "Middle East",
+
+      # Africa
+      country %in%
+        c(
+          "SOUTH AFRICA",
+          "EGYPT",
+          "NIGERIA",
+          "KENYA",
+          "MOROCCO",
+          "TUNISIA",
+          "ALGERIA",
+          "GHANA",
+          "ETHIOPIA",
+          "TANZANIA",
+          "UGANDA",
+          "ZIMBABWE",
+          "ZAMBIA",
+          "BOTSWANA",
+          "NAMIBIA",
+          "MAURITIUS",
+          "SENEGAL",
+          "IVORY COAST",
+          "CAMEROON"
+        ) ~ "Africa",
+
+      # Oceania
+      country %in%
+        c("AUSTRALIA", "NEW ZEALAND", "FIJI", "PAPUA NEW GUINEA") ~ "Oceania",
+
+      # Central America & Caribbean
+      country %in%
+        c(
+          "COSTA RICA",
+          "PANAMA",
+          "GUATEMALA",
+          "HONDURAS",
+          "NICARAGUA",
+          "EL SALVADOR",
+          "BELIZE",
+          "JAMAICA",
+          "TRINIDAD AND TOBAGO",
+          "BARBADOS",
+          "BAHAMAS",
+          "DOMINICAN REPUBLIC",
+          "CUBA",
+          "HAITI",
+          "PUERTO RICO"
+        ) ~ "Central America & Caribbean",
+
+      # Not Specified
+      country == "Not Specified" ~ "Not Specified",
+
+      # Default for any unmatched countries
+      TRUE ~ "Other"
+    )
+  )
+
+# Check the distribution of regions
+result_exact %>%
+  count(region, sort = TRUE)
+
+# Check unique countries in the dataset to see what you're working with
+result_exact %>%
+  count(country, sort = TRUE)
+
+# Check if there are any "Other" countries that need to be categorized
+result_exact %>%
+  filter(region == "Other") %>%
+  count(country, sort = TRUE)
 
 
 # Load necessary library
@@ -231,3 +434,33 @@ exhibitors %>%
     n_show_types = n_distinct(show_type)
   ) %>%
   arrange(desc(n_exhibitors))
+
+
+# Check if all are chinese companies
+result_exact %>%
+  distinct(company_name, .keep_all = TRUE) |>
+  filter(country == "CHINA") |>
+  pull(company_name)
+
+# Load new list of exhibitors
+# https://www.informa-japan.com/cphifcj/complist/en/index.php?kbntype=1
+new_list <- read.csv("data/exhibitor_list_from_pdf.csv")
+glimpse(new_list)
+
+
+colSums(is.na(new_list))
+sum(is.na(new_list))
+# NUMBERS OF NA are zero
+# Listed companies are correct from the new_list. so merge result_exact to new_list by company_name
+
+result_exact <-
+  new_list |>
+  left_join(result_exact, by = c("booth_no" = "booth_number")) |>
+  select(!company_name.y) |>
+  rename(company_name = company_name.x)
+
+result_exact |>
+  filter(if_any(everything(), is.na))
+
+# Save results
+write_csv(result_exact, "data/exhibitors_cphijp2026_with_NA.csv")

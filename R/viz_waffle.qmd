@@ -1,0 +1,170 @@
+
+
+
+
+```{r}
+# ── Libraries ──────────────────────────────────────────────────────────────────
+library(tidyverse)
+library(waffle)
+library(showtext)
+library(ggtext)
+
+# ── Data ───────────────────────────────────────────────────────────────────────
+df <- read_csv("data/exhibitors_cphijp2026.csv")
+
+# Deduplicate: one row per unique company × country × show_type
+unique_exhibitors <- df %>%
+  distinct(company_name, country, show_type)
+
+# Count by show_type
+show_counts <- unique_exhibitors %>%
+  count(show_type, name = "n") %>%
+  arrange(desc(n))
+
+# ── Fonts ──────────────────────────────────────────────────────────────────────
+font_add_google("Alata", "title_font")
+font_add_google("Noto Sans", "body_font")
+showtext_auto()
+
+# ── Palette ────────────────────────────────────────────────────────────────────
+cphi_colors <- c(
+  "Ingredients" = "#E63946", # bold red
+  "Outsourcing" = "#457B9D", # steel blue
+  "Bio Pharma" = "#2A9D8F" # teal
+)
+
+# ── Labels ─────────────────────────────────────────────────────────────────────
+total <- sum(show_counts$n)
+
+title_text <- "One Show, Three Worlds at CPHI Japan 2026"
+subtitle_text <- glue::glue(
+  "{total} unique exhibitor entries across <b style='color:#E63946'>Ingredients</b>, ",
+  "<b style='color:#457B9D'>Outsourcing</b>, and <b style='color:#2A9D8F'>Bio Pharma</b>"
+)
+caption_text <- "Source: CPHI Japan 2026 Official Exhibitor List"
+
+# ── Plot ───────────────────────────────────────────────────────────────────────
+# Each square = 1 exhibitor entry (use values directly, or scale down if > 200)
+# Here we scale: each square ≈ 2 exhibitors so the grid stays clean
+waffle_data <- show_counts %>%
+  mutate(n_scaled = round(n / 2)) |> # 1 square = ~2 exhibitors
+mutate(show_type = factor(show_type, levels = c("Ingredients", "Outsourcing", "Bio Pharma")))  # ← add this
+
+
+# Label vector
+legend_labels <- show_counts %>%
+  mutate(lbl = paste0(show_type, " (", n, ")")) %>%
+  select(show_type, lbl) %>%
+  deframe()   
+
+
+```
+
+# Viz
+```{r}
+p <- ggplot(waffle_data, aes(fill = show_type, values = n_scaled)) +
+  geom_waffle(
+    color = "white",
+    size = 0.4,
+    n_rows = 10,
+    flip = FALSE, # ← change TRUE to FALSE
+    make_proportional = FALSE
+  ) +
+  scale_fill_manual(
+    values = cphi_colors,
+    labels = legend_labels   #
+
+  ) +
+  coord_equal() +
+  labs(
+    title = title_text,
+    subtitle = subtitle_text,
+    caption = caption_text,
+    fill = NULL
+  ) +
+  theme_minimal(base_family = "body_font") +
+  theme(
+    # axes
+    axis.title = element_blank(),
+    axis.text = element_blank(),
+    panel.grid = element_blank(),
+
+    # legend
+    legend.position = "top",
+    legend.justification = "left",
+    legend.key.size = unit(0.6, "cm"),
+    legend.text = element_text(size = 13, color = "grey20"),
+    legend.spacing.x = unit(0.4, "cm"),
+
+    # title
+    plot.title.position = "plot",
+    plot.title = element_text(
+      family = "title_font",
+      face = "bold",
+      size = 28,
+      color = "grey10",
+      margin = margin(b = 8)
+    ),
+    plot.subtitle = element_textbox_simple(
+      family = "body_font",
+      size = 14,
+      color = "grey30",
+      lineheight = 1.4,
+      margin = margin(b = 16)
+    ),
+    plot.caption = element_text(
+      family = "body_font",
+      size = 10,
+      color = "grey50",
+      hjust = 0.5,
+      margin = margin(t = 16)
+    ),
+    plot.background = element_rect(fill = "#F8F9FA", color = NA),
+    plot.margin = margin(24, 32, 16, 32)
+  )
+
+# ── Save ───────────────────────────────────────────────────────────────────────
+showtext_opts(dpi = 320)
+ggsave("cphi_waffle.png", p, width = 10, height = 7, dpi = 320)
+showtext_auto(FALSE)
+```
+
+
+
+```{r}
+library(magick)
+
+# ── Save base plot first ───────────────────────────────────────────────────────
+showtext_opts(dpi = 320)
+ggsave("cphi_waffle_nologo.png", p, width = 10, height = 10, dpi = 108)  # 10 * 108 = 1080px
+showtext_auto(FALSE)
+
+# ── Canvas dimensions ─────────────────────────────────────────────────────────
+plot_width  <- 1080L
+plot_height <- 1080L
+
+# ── Read base plot ─────────────────────────────────────────────────────────────
+base_img <- image_read("cphi_waffle_nologo.png")
+base_img <- image_resize(base_img, paste0(plot_width, "x", plot_height, "!"))  # force exact 1080x1080
+
+# ── Read & resize logo ────────────────────────────────────────────────────────
+logo_img <- image_read("logos/wide/satom-wide-color.png")
+logo_target_width <- round(plot_width * 0.15)
+logo_img <- image_scale(logo_img, as.character(logo_target_width))
+
+logo_info   <- image_info(logo_img)
+logo_width  <- logo_info$width
+logo_height <- logo_info$height
+
+# ── Position: bottom-right ────────────────────────────────────────────────────
+margin_right  <- 30
+margin_bottom <- 30
+
+x_offset <- plot_width  - logo_width  - margin_right
+y_offset <- plot_height - logo_height - margin_bottom
+
+# ── Composite & save ──────────────────────────────────────────────────────────
+final_img <- image_composite(base_img, logo_img, offset = paste0("+", x_offset, "+", y_offset))
+
+image_write(final_img, "cphi_waffle_1080x1080.png", format = "png")
+```

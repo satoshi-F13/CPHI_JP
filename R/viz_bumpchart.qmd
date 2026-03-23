@@ -1,0 +1,257 @@
+# Preparation
+```{r}
+# ── Libraries ──────────────────────────────────────────────────────────────────
+library(tidyverse)
+library(ggsankey) # remotes::install_github("davidsjoberg/ggsankey")
+library(ggtext)
+library(showtext)
+library(ggimage) # for geom_image / flag rendering
+library(magick)
+
+# ── Data ───────────────────────────────────────────────────────────────────────
+df <- read_csv("data/exhibitors_cphijp2026.csv")
+
+unique_ex <- df %>%
+  mutate(
+    flag_url = paste0(
+      "https://hatscripts.github.io/circle-flags/flags/",
+      country_code_lower,
+      ".svg"
+    )
+  ) %>%
+  distinct(
+    company_name,
+    country,
+    country_code_lower,
+    flag_url,
+    region,
+    show_type
+  ) |>
+  mutate(
+    country = case_when(
+      country == "RUSSIAN FEDERATION" ~ "RUSSIA",
+      country == "SOUTH KOREA" ~ "S.KOREA",
+      TRUE ~ country
+    )
+  )
+
+top_countries <- unique_ex %>%
+  count(country, sort = TRUE) %>%
+  slice_head(n = 12) %>%
+  pull(country)
+
+# ── Fonts ──────────────────────────────────────────────────────────────────────
+font_add_google("Alata", "title_font")
+font_add_google("Noto Sans", "body_font")
+showtext_auto()
+
+# ── Palettes ───────────────────────────────────────────────────────────────────
+country_colors <- c(
+  "JAPAN" = "#BC002D",
+  "CHINA" = "#DE2910",
+  "INDIA" = "#FF9933",
+  "ITALY" = "#009246",
+  "TAIWAN" = "#000095",
+  "USA" = "#3C3B6E",
+  "S.KOREA" = "#003478",
+  "RUSSIA" = "#D52B1E",
+  "SWITZERLAND" = "#FF0000",
+  "DENMARK" = "#C60C30",
+  "HONG KONG" = "#DE2910",
+  "GERMANY" = "#FFCE00"
+)
+
+# [CHANGE 2] Region palette — assign distinct colours per region
+region_colors <- c(
+  "Asia" = "#4E9AC7",
+  "Europe" = "#5BAD6F",
+  "North America" = "#E07B39",
+  "South America" = "#C97BC7",
+  "Middle East" = "#D4A842",
+  "Africa" = "#7B5EA7",
+  "Oceania" = "#3ABFBF"
+)
+
+# Combined fill palette (countries + regions; show_type keeps grey)
+all_fill_colors <- c(country_colors, region_colors)
+
+# ── Build Sankey data ──────────────────────────────────────────────────────────
+sankey_df <- unique_ex %>%
+  filter(country %in% top_countries) %>%
+  make_long(country, region, show_type)
+
+
+unique_ex |>
+  filter(country == "CHINA") |>
+  count()
+# japan  163, china 202
+
+# ── [CHANGE 1] Flag label data: replace country text labels with flag images ───
+# We'll overlay flags on the Country node positions using geom_image.
+# Compute per-node y positions after the plot is built via a label data frame.
+# ggsankey exposes node positions; we extract them from the sankey_df structure.
+
+# Build a flag lookup: country → flag_url
+flag_lookup <- unique_ex %>%
+  filter(country %in% top_countries) %>%
+  distinct(country, flag_url)
+
+# Node label data for country column only (x == "country")
+country_label_df <- sankey_df %>%
+  filter(x == "country") %>%
+  distinct(node) %>%
+  left_join(flag_lookup, by = c("node" = "country"))
+
+# ── [CHANGE 4] Title with 50 % facts ──────────────────────────────────────────
+# Example facts you'd derive from your data (adjust numbers to actual values):
+# e.g. "Japan leads with 38 % of exhibitors; 60 % participate in both show types"
+title_text <- "Most Japanese Exhibitors Focus on the Ingredients Segment at CPHI Japan 2026"
+subtitle_text <- "Top 12 countries by exhibitor count. Each stream shows the flow of\nunique exhibitors from country through region into show segment."
+caption_text <- "Source: CPHI Japan 2026 Official Exhibitor List "
+```
+
+
+
+#  Plot 
+```{r}
+# ── Plot ───────────────────────────────────────────────────────────────────────
+p2 <- ggplot(
+  sankey_df,
+  aes(
+    x = x,
+    next_x = next_x,
+    node = node,
+    next_node = next_node,
+    fill = node,
+    label = node
+  )
+) +
+
+  geom_sankey(
+    flow.alpha = 0.55,
+    node.color = "white",
+    smooth = 6,
+    width = 0.08
+  ) +
+
+  # Restore text labels for ALL columns including country
+  geom_sankey_label(
+    size = 3.8,
+    color = "white",
+    fill = "grey25",
+    family = "body_font",
+    hjust = 0.5,
+    label.r = unit(3, "pt"),
+    label.padding = unit(3, "pt")
+  ) +
+
+  scale_fill_manual(
+    values = all_fill_colors,
+    na.value = "grey75",
+    guide = "none"
+  ) +
+
+  scale_x_discrete(
+    labels = c(
+      "country" = "Country",
+      "region" = "Region",
+      "show_type" = "Show Type"
+    )
+  ) +
+
+  labs(
+    title = title_text,
+    subtitle = subtitle_text,
+    caption = caption_text
+  ) +
+
+  theme_sankey(base_family = "body_font", base_size = 13) +
+  theme(
+    axis.title = element_blank(),
+    axis.text.y = element_blank(),
+    axis.text.x = element_text(
+      size = 14,
+      face = "bold",
+      color = "grey20",
+      margin = margin(t = 6)
+    ),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "grey92", color = NA),
+    plot.title.position = "plot",
+    plot.title = element_text(
+      family = "title_font",
+      face = "bold",
+      size = 24,
+      color = "grey10",
+      lineheight = 1.2,
+      margin = margin(b = 8)
+    ),
+    plot.subtitle = element_text(
+      family = "body_font",
+      size = 14,
+      color = "grey35",
+      lineheight = 1.4,
+      margin = margin(b = 8)
+    ),
+    plot.caption = element_text(
+      family = "body_font",
+      size = 9,
+      color = "grey55",
+      hjust = 0, # 0 = left, 0.5 = centre, 1 = right
+      vjust = 1, # vertical nudge relative to plot edge
+      margin = margin(t = 14)
+    ),
+    plot.background = element_rect(fill = "#FAFAFA", color = NA),
+    plot.margin = margin(24, 40, 16, 40)
+  )
+
+p2
+
+# ── Save ───────────────────────────────────────────────────────────────────────
+showtext_opts(dpi = 320)
+ggsave("assets/cphi_sankey_bump.png", p2, width = 10, height = 10, dpi = 108)
+showtext_auto(FALSE)
+
+
+# ── Canvas dimensions ─────────────────────────────────────────────────────────
+plot_width <- 1080L
+plot_height <- 1080L
+
+# ── Read base plot ─────────────────────────────────────────────────────────────
+base_img <- image_read("assets/cphi_sankey_bump.png")
+base_img <- image_resize(base_img, paste0(plot_width, "x", plot_height, "!")) # force exact 1080x1080
+
+# ── Read & resize logo ────────────────────────────────────────────────────────
+logo_img <- image_read("logos/wide/satom-wide-color.png")
+logo_target_width <- round(plot_width * 0.15)
+logo_img <- image_scale(logo_img, as.character(logo_target_width))
+
+logo_info <- image_info(logo_img)
+logo_width <- logo_info$width
+logo_height <- logo_info$height
+
+# ── Position: bottom-right ────────────────────────────────────────────────────
+margin_right <- 10
+margin_bottom <- 10
+
+x_offset <- plot_width - logo_width - margin_right
+y_offset <- plot_height - logo_height - margin_bottom
+
+# ── Composite & save ──────────────────────────────────────────────────────────
+final_img <- image_composite(
+  base_img,
+  logo_img,
+  offset = paste0("+", x_offset, "+", y_offset)
+)
+
+image_write(final_img, "assets/cphi_sankey_1080x1080.png", format = "png")
+
+```
+
+
+
+
+
+
+
+
